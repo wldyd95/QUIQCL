@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov  6 21:30:49 2019
+# Process ID: 8116
+# Current directory: C:/Users/hp/Desktop/Jhe/Picoharp fpga test/CNL-DAC-board-control-code-master/Serial_DAC_Control_v2.1_Arty
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17984 C:\Users\hp\Desktop\Jhe\Picoharp fpga test\CNL-DAC-board-control-code-master\Serial_DAC_Control_v2.1_Arty\Serial_DAC_Control.xpr
+# Log file: C:/Users/hp/Desktop/Jhe/Picoharp fpga test/CNL-DAC-board-control-code-master/Serial_DAC_Control_v2.1_Arty/vivado.log
+# Journal file: C:/Users/hp/Desktop/Jhe/Picoharp fpga test/CNL-DAC-board-control-code-master/Serial_DAC_Control_v2.1_Arty\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/hp/Desktop/Jhe/Picoharp fpga test/CNL-DAC-board-control-code-master/Serial_DAC_Control_v2.1_Arty/Serial_DAC_Control.xpr}
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s50_0] 0]

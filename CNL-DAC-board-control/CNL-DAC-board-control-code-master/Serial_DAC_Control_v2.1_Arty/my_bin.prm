@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX1
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    Apr 14 12:45:14 2018    O:/Experiment_Scripts/ARTY_FPGA/Serial_DAC_Control_v1.0/Serial_DAC_Control_v1.0_Arty/Serial_DAC_Control_v1.0.runs/impl_1/main.bit

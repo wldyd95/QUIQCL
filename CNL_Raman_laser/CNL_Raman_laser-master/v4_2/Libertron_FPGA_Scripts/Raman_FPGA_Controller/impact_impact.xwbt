@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=X:\Experiment_Scripts\Computer_Raman\RAMAN\v4_2\Libertron_FPGA_Scripts\Raman_FPGA_Controller\impact.xsl
+OUTFILE=X:\Experiment_Scripts\Computer_Raman\RAMAN\v4_2\Libertron_FPGA_Scripts\Raman_FPGA_Controller\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=X:\Experiment_Scripts\Computer_Raman\RAMAN\v4_2\Libertron_FPGA_Scripts\Raman_FPGA_Controller
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "O:\Device Control Scripts\Raman Setup\v4_0\FPGA_Scripts\Raman_FPGA_Controller\//Untitled" -x xcf01s -u 00000000 "O:/Device Control Scripts/Raman Setup/v4_0/FPGA_Scripts/Raman_FPGA_Controller/main.bit" 
+
+PROM \\10.1.1.70\iontrap\Device Control Scripts\Raman Setup\v4_0\FPGA_Scripts\Raman_FPGA_Controller\Untitled.prm map: Mon Jun 27 15:08:20 2016
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          128K
+PROM start    0000:0000
+PROM end      0001:ffff
+PROM checksum 003c3226
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0001:ff87     Jun 22 13:41:34 2016 O:/Device Control Scripts/Raman Setup/v4_0/FPGA_Scripts/Raman_FPGA_Controller/main.bit

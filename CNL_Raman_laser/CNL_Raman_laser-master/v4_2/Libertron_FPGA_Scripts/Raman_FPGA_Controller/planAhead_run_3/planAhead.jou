@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Sep 17 10:36:15 2015
+# Process ID: 1516
+# Log file: T:/Device control/Sequencer/v2_6/sequencer_field_version/planAhead_run_3/planAhead.log
+# Journal file: T:/Device control/Sequencer/v2_6/sequencer_field_version/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {T:/Device control/Sequencer/v2_6/sequencer_field_version/pa.fromNetlist.tcl}

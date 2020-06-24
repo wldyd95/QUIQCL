@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Sep 17 18:28:54 2015
+# Process ID: 5412
+# Log file: T:/Device control/Sequencer/v2_7__under_construction/sequencer_field_version/planAhead_run_4/planAhead.log
+# Journal file: T:/Device control/Sequencer/v2_7__under_construction/sequencer_field_version/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {T:/Device control/Sequencer/v2_7__under_construction/sequencer_field_version/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property iostandard LVTTL [get_ports [list {EXP_C[7]} {EXP_C[6]} {EXP_C[5]} {EXP_C[4]} {EXP_C[3]} {EXP_C[2]} {EXP_C[1]} {EXP_C[0]}]]
+set_property iostandard LVCMOS25 [get_ports [list {LED[3]} {LED[2]} {LED[1]} {LED[0]}]]
+startgroup
+set_property package_pin P143 [get_ports {EXP_A[8]}]
+endgroup
+startgroup
+set_property package_pin P144 [get_ports {EXP_A[9]}]
+endgroup
+startgroup
+set_property package_pin P146 [get_ports {EXP_A[10]}]
+endgroup
+startgroup
+set_property package_pin P147 [get_ports {EXP_A[11]}]
+endgroup
+save_constraints

@@ -1,0 +1,264 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'main'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off
+-c 100 -o main_map.ncd main.ngd main.pcf 
+Target Device  : xc3s200
+Target Package : pq208
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.55 $
+Mapped Date    : Thu Dec 05 14:29:18 2019
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   18
+Logic Utilization:
+  Number of Slice Flip Flops:         1,211 out of   3,840   31%
+  Number of 4 input LUTs:             3,171 out of   3,840   82%
+Logic Distribution:
+  Number of occupied Slices:          1,865 out of   1,920   97%
+    Number of Slices containing only related logic:   1,865 out of   1,865 100%
+    Number of Slices containing unrelated logic:          0 out of   1,865   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       3,294 out of   3,840   85%
+    Number used as logic:             3,170
+    Number used as a route-thru:        123
+    Number used as Shift registers:       1
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 43 out of     141   30%
+  Number of RAMB16s:                     10 out of      12   83%
+  Number of MULT18X18s:                  10 out of      12   83%
+  Number of BUFGMUXs:                     2 out of       8   25%
+
+Average Fanout of Non-Clock Nets:                3.68
+
+Peak Memory Usage:  311 MB
+Total REAL time to MAP completion:  8 secs 
+Total CPU time to MAP completion:   4 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Pack:266 - The function generator TXStringReady_mux000031 failed to
+   merge with F5 multiplexer ram_addr_mux0000<0>6_f5.  There is a conflict for
+   the FXMUX.  The design will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator TXString_12_mux000141 failed to merge
+   with F5 multiplexer TXString_6_mux00021541_f5.  There is a conflict for the
+   FXMUX.  The design will exhibit suboptimal timing.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA6> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA14> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA22> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA30> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB6> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB14> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB22> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB30> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<FTW_RAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.c
+   str/ramloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network ADC__BCS_bar_IBUF has no load.
+INFO:LIT:395 - The above info message is repeated 6 more times for the following
+   (max. 5 shown):
+   ADC__BDn1_IBUF,
+   ADC__BDn2_IBUF,
+   Push_SW0_IBUF,
+   Push_SW1_IBUF,
+   Push_SW2_IBUF
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   6 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		ADC_FIFO/XST_GND
+VCC 		ADC_FIFO/XST_VCC
+GND 		FTW_RAM/XST_GND
+VCC 		FTW_RAM/XST_VCC
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ADC__BCS_bar                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD0                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD1                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD2                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD3                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD4                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD5                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD6                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD7                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD8                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD9                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD10                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD11                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD12                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD13                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD14                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BD15                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BDn1                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__BDn2                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ADC__DBUSY_bar                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| DIP_0                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| DIP_1                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| DIP_2                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| DIP_3                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| LED<0>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| LED<1>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| LED<2>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| LED<3>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| PowerDown00                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| PowerDown01                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Push_SW0                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| Push_SW1                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| Push_SW2                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| Push_SW3                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ResetDDS0                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Uart_RXD                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| Uart_TXD                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| clk                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rcsbar00                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| rcsbar01                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| rsclk0                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| rsdio00                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| rsdio01                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

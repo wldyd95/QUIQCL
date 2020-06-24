@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Sep 17 10:36:08 2015
+# Process ID: 200
+# Log file: T:/Device control/Sequencer/v2_6/sequencer_field_version/planAhead_run_2/planAhead.log
+# Journal file: T:/Device control/Sequencer/v2_6/sequencer_field_version/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {T:/Device control/Sequencer/v2_6/sequencer_field_version/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P109 [get_ports {EXP_B[3]}]
+endgroup

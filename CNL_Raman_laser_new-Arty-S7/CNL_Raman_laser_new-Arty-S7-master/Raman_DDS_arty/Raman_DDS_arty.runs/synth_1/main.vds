@@ -1,0 +1,1050 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Feb  1 17:55:33 2020
+# Process ID: 16148
+# Current directory: C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1/main.vds
+# Journal file: C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace
+Command: synth_design -top main -part xc7s50csga324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17960 
+WARNING: [Synth 8-2507] parameter declaration becomes local in DDSControl with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/DDSControl.v:105]
+WARNING: [Synth 8-2507] parameter declaration becomes local in DDSControl with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/DDSControl.v:106]
+WARNING: [Synth 8-2507] parameter declaration becomes local in DDSControl with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/DDSControl.v:107]
+WARNING: [Synth 8-2507] parameter declaration becomes local in DDSControl with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/DDSControl.v:108]
+WARNING: [Synth 8-2507] parameter declaration becomes local in DDSControl with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/DDSControl.v:109]
+WARNING: [Synth 8-2507] parameter declaration becomes local in DDSControl with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/DDSControl.v:110]
+WARNING: [Synth 8-2507] parameter declaration becomes local in WriteToRegister with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/WriteToRegister.v:48]
+WARNING: [Synth 8-2507] parameter declaration becomes local in WriteToRegister with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/WriteToRegister.v:49]
+WARNING: [Synth 8-2507] parameter declaration becomes local in WriteToRegister with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/WriteToRegister.v:50]
+WARNING: [Synth 8-2507] parameter declaration becomes local in WriteToRegister with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/WriteToRegister.v:51]
+WARNING: [Synth 8-2507] parameter declaration becomes local in async_receiver with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/async_receiver.v:22]
+WARNING: [Synth 8-2507] parameter declaration becomes local in async_receiver with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/async_receiver.v:23]
+WARNING: [Synth 8-2507] parameter declaration becomes local in async_transmitter with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/async_transmitter.v:18]
+WARNING: [Synth 8-2507] parameter declaration becomes local in async_transmitter with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/async_transmitter.v:21]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_reader with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_reader.v:68]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_reader with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_reader.v:69]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_reader with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_reader.v:70]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_reader with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_reader.v:71]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_reader with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_reader.v:72]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_sender with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:43]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_sender with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:77]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_sender with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:78]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_sender with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:79]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_sender with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:80]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_sender with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:81]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_sender with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:82]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_sender with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:83]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_sender with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:84]
+WARNING: [Synth 8-2507] parameter declaration becomes local in string_sender with formal parameter declaration list [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:85]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 713.891 ; gain = 184.676
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:22]
+	Parameter ClkFreq bound to: 100000000 - type: integer 
+	Parameter BaudRate bound to: 57600 - type: integer 
+	Parameter RX_STRING_COUNT_BIT bound to: 5 - type: integer 
+	Parameter RX_STRING_MAX_LENGTH bound to: 16 - type: integer 
+	Parameter RX_STRING_MAX_BIT_LENGTH bound to: 128 - type: integer 
+	Parameter RX_NUMBER_MAX_BIT_LENGTH bound to: 64 - type: integer 
+	Parameter TX_STRING_COUNT_BIT bound to: 5 - type: integer 
+	Parameter TX_STRING_MAX_LENGTH bound to: 16 - type: integer 
+	Parameter TX_STRING_MAX_BIT_LENGTH bound to: 128 - type: integer 
+	Parameter DDS_COMMAND_LENGTH_BIT bound to: 4 - type: integer 
+	Parameter DDS_COMMAND_BYTE bound to: 8 - type: integer 
+	Parameter DDS_COMMAND_BIT bound to: 64 - type: integer 
+	Parameter ADC_BYTE bound to: 2 - type: integer 
+	Parameter ADC_BIT bound to: 16 - type: integer 
+	Parameter ADC_SUM_BYTE bound to: 5 - type: integer 
+	Parameter ADC_SUM_BIT bound to: 40 - type: integer 
+	Parameter FIFO_Width_BIT bound to: 40 - type: integer 
+	Parameter FIFO_Depth_BIT bound to: 12 - type: integer 
+	Parameter FTW_BYTE bound to: 6 - type: integer 
+	Parameter FTW_BIT bound to: 48 - type: integer 
+	Parameter PI_FACTOR_BYTE bound to: 3 - type: integer 
+	Parameter PI_FACTOR_BIT bound to: 20 - type: integer 
+	Parameter ERROR_ACCUM_BIT bound to: 2 - type: integer 
+	Parameter PI_PWR_DIV_BIT bound to: 2 - type: integer 
+	Parameter ADDR_BIT bound to: 3 - type: integer 
+	Parameter RAM_ADDR__FTW_DDS1 bound to: 3'b000 
+	Parameter RAM_ADDR__FTW_DDS2 bound to: 3'b001 
+	Parameter RAM_ADDR__PLL_ERR bound to: 3'b011 
+	Parameter RAM_ADDR__PLL_P bound to: 3'b100 
+	Parameter RAM_ADDR__PLL_I bound to: 3'b101 
+	Parameter RAM_ADDR__FTW_DDS2_OLD bound to: 3'b110 
+	Parameter RAM_ADDR__FTW_DDS2_w_P bound to: 3'b111 
+	Parameter MODE_BIT bound to: 4 - type: integer 
+	Parameter MODE__INIT bound to: 4'b0000 
+	Parameter MODE__RUN bound to: 4'b0001 
+	Parameter MODE__Back2Home bound to: 4'b0010 
+	Parameter MODE__TX_STRING bound to: 4'b0011 
+	Parameter MODE__RAM_READ bound to: 4'b0100 
+	Parameter MODE__RAM_WRITE bound to: 4'b0101 
+	Parameter MODE__REG_SET bound to: 4'b0110 
+	Parameter MODE__REG_GET bound to: 4'b0111 
+	Parameter MODE__DDS_WRITE bound to: 4'b1010 
+	Parameter IDLE bound to: 8'b00000000 
+	Parameter Unkwon_Command_Entered bound to: 8'b00010000 
+	Parameter SET_DDS_FREQ__get_dds_num bound to: 8'b00110000 
+	Parameter SET_DDS_FREQ__Save_FTW_in_Ram bound to: 8'b00110001 
+	Parameter SET_DDS_FREQ__FTW_Read_Latency bound to: 8'b00110010 
+	Parameter SET_DDS_PWR__get_dds_num bound to: 8'b01000000 
+	Parameter SET_DDS_PWR__get_pwr_lvl bound to: 8'b01000001 
+	Parameter SET_DDS_PWR__wait_busy bound to: 8'b01000010 
+	Parameter SET_DDS_PWR__wait_finish bound to: 8'b01000011 
+	Parameter GET_ADC bound to: 8'b01100000 
+	Parameter Record_ADC__Prep bound to: 8'b01110000 
+	Parameter Record_ADC__Ready bound to: 8'b01110001 
+	Parameter Record_ADC__SUM_Start bound to: 8'b01110010 
+	Parameter Record_ADC__SUM_Check bound to: 8'b01110011 
+	Parameter Record_ADC__FIFO_Check bound to: 8'b01110100 
+	Parameter Print_ADC__Print_length bound to: 8'b10000000 
+	Parameter Print_ADC__Print_length_wait bound to: 8'b10000001 
+	Parameter Print_ADC__Print_Wait bound to: 8'b10000010 
+	Parameter Print_ADC__Read_Latency bound to: 8'b10000011 
+	Parameter Print_ADC__Print bound to: 8'b10000100 
+	Parameter Print_ADC__Print2 bound to: 8'b10000101 
+	Parameter Print_ADC__Finished bound to: 8'b10000110 
+	Parameter Single_Cycle__GoGoGo bound to: 8'b10010000 
+	Parameter run__INIT bound to: 8'b00000000 
+	Parameter run__ADC_Accumulate bound to: 8'b00000001 
+	Parameter run__ADC_Accum_Check bound to: 8'b00000010 
+	Parameter run__OLD_FTW_Read_Latency bound to: 8'b00000011 
+	Parameter run__Save_OLD_FTW_DD2 bound to: 8'b00000100 
+	Parameter run__Save_PLL_ERR bound to: 8'b00000101 
+	Parameter run__PLL_ERR_Latency bound to: 8'b00000110 
+	Parameter run__Calc_I bound to: 8'b00000111 
+	Parameter run__I_Value_Latency bound to: 8'b00001000 
+	Parameter run__Update_FTW_Prep bound to: 8'b00001001 
+	Parameter run__Update_FTW_Shift bound to: 8'b00010000 
+	Parameter run__Update_FTW bound to: 8'b00010001 
+	Parameter run__Load_PLL_ERR bound to: 8'b00010010 
+	Parameter run__PLL_ERR_Load_Latency bound to: 8'b00010011 
+	Parameter run__Calc_P bound to: 8'b00010100 
+	Parameter run__P_Value_Latency bound to: 8'b00010101 
+	Parameter run__Update_FTW_APPLIED_Prep bound to: 8'b00010110 
+	Parameter run__Update_FTW_APP_Shift bound to: 8'b00010111 
+	Parameter run__Update_FTW_APPLIED bound to: 8'b00011000 
+	Parameter run__FTW_APPLIED_Latency bound to: 8'b00011001 
+	Parameter str__TX_STRING bound to: 2'b00 
+	Parameter str__TX_STRING__WAIT_FOR_BUSY bound to: 2'b01 
+	Parameter str__TX_STRING__WAIT_FOR_FINISH bound to: 2'b10 
+	Parameter ramW__get_address bound to: 2'b00 
+	Parameter ramW__get_value bound to: 2'b01 
+	Parameter ramW__write_wait bound to: 2'b10 
+	Parameter ramR__get_address bound to: 2'b00 
+	Parameter ramR__wait_latency bound to: 2'b01 
+	Parameter ramR__print bound to: 2'b10 
+	Parameter regS__get_reg_name bound to: 1'b0 
+	Parameter regS__get_reg_value bound to: 1'b1 
+	Parameter regG__get_reg_name bound to: 1'b0 
+	Parameter regG__print_reg_value bound to: 1'b1 
+	Parameter ddsW__Start bound to: 4'b0000 
+	Parameter ddsW__Write_DDS bound to: 4'b0001 
+	Parameter ddsW__SET_DDS_FREQ__wait_busy bound to: 4'b0010 
+	Parameter ddsW__SET_DDS_FREQ__wait_finish bound to: 4'b0011 
+	Parameter ddsW__SET_DDS_FREQ__wait_busy2 bound to: 4'b0100 
+	Parameter ddsW__SET_DDS_FREQ__wait_finish2 bound to: 4'b0101 
+	Parameter ddsW__SET_DDS_FREQ__cal_port1 bound to: 4'b0110 
+	Parameter ddsW__SET_DDS_FREQ__cal_port1_latency bound to: 4'b0111 
+	Parameter ddsW__Write_DDS_port1 bound to: 4'b1000 
+	Parameter ddsW__SET_DDS_FREQ__wait_busy_port1 bound to: 4'b1001 
+	Parameter ddsW__SET_DDS_FREQ__wait_finish_port1 bound to: 4'b1010 
+	Parameter ddsW__SET_DDS_FREQ__wait_busy2_port1 bound to: 4'b1011 
+INFO: [Synth 8-6157] synthesizing module 'string_reader' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_reader.v:8]
+	Parameter RX_STRING_COUNT_BIT bound to: 5 - type: integer 
+	Parameter RX_STRING_MAX_LENGTH bound to: 16 - type: integer 
+	Parameter RX_STRING_MAX_BIT_LENGTH bound to: 128 - type: integer 
+	Parameter RX_NUMBER_MAX_BIT_LENGTH bound to: 64 - type: integer 
+	Parameter ClkFreq bound to: 100000000 - type: integer 
+	Parameter BaudRate bound to: 57600 - type: integer 
+	Parameter IDLE bound to: 3'b000 
+	Parameter STARTED bound to: 3'b001 
+	Parameter ANALYZE bound to: 3'b010 
+	Parameter NEW_CHAR bound to: 3'b011 
+	Parameter FINISHED bound to: 3'b100 
+INFO: [Synth 8-6157] synthesizing module 'async_receiver' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/async_receiver.v:4]
+	Parameter ClkFrequency bound to: 100000000 - type: integer 
+	Parameter Baud bound to: 57600 - type: integer 
+	Parameter Baud8 bound to: 460800 - type: integer 
+	Parameter Baud8GeneratorAccWidth bound to: 16 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element RxD_data_error_reg was removed.  [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/async_receiver.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'async_receiver' (1#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/async_receiver.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ascii2hex' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/ascii2hex.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'ascii2hex' (2#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/ascii2hex.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_reader.v:85]
+INFO: [Synth 8-6155] done synthesizing module 'string_reader' (3#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_reader.v:8]
+INFO: [Synth 8-6157] synthesizing module 'string_sender' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:23]
+	Parameter TX_STRING_COUNT_BIT bound to: 5 - type: integer 
+	Parameter TX_STRING_MAX_LENGTH bound to: 16 - type: integer 
+	Parameter TX_STRING_MAX_BIT_LENGTH bound to: 128 - type: integer 
+	Parameter ClkFrequency bound to: 100000000 - type: integer 
+	Parameter Baud bound to: 57600 - type: integer 
+	Parameter TXBuffer_BIT_LENGTH bound to: 128 - type: integer 
+	Parameter IDLE bound to: 4'b0000 
+	Parameter ADD_TERMINATOR bound to: 4'b0001 
+	Parameter CHAR_SHIFT bound to: 4'b0010 
+	Parameter START_TxD bound to: 4'b0011 
+	Parameter WAIT_FOR_TxD_BUSY bound to: 4'b0100 
+	Parameter WAIT_FOR_TxD_FINISH bound to: 4'b0101 
+	Parameter END_START_TxD bound to: 4'b1010 
+	Parameter END_WAIT_FOR_TxD_BUSY bound to: 4'b1011 
+	Parameter END_WAIT_FOR_TxD_FINISH bound to: 4'b1100 
+INFO: [Synth 8-6157] synthesizing module 'async_transmitter' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/async_transmitter.v:6]
+	Parameter ClkFrequency bound to: 100000000 - type: integer 
+	Parameter Baud bound to: 57600 - type: integer 
+	Parameter RegisterInputData bound to: 1 - type: integer 
+	Parameter BaudGeneratorAccWidth bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'async_transmitter' (4#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/async_transmitter.v:6]
+INFO: [Synth 8-6157] synthesizing module 'hex2ascii' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/hex2ascii.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'hex2ascii' (5#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/hex2ascii.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:98]
+INFO: [Synth 8-6155] done synthesizing module 'string_sender' (6#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/imports/new/string_sender.v:23]
+WARNING: [Synth 8-7023] instance 'STR_SENDER' of module 'string_sender' has 7 connections declared, but only 6 given [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:122]
+INFO: [Synth 8-6157] synthesizing module 'DDSControl' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/DDSControl.v:12]
+	Parameter LENGTH_BIT_COUNT bound to: 4 - type: integer 
+	Parameter MAXLENGTH bound to: 8 - type: integer 
+	Parameter MAXLENGTH8 bound to: 64 - type: integer 
+	Parameter IDLE bound to: 3'b000 
+	Parameter SHIFT_DATA bound to: 3'b001 
+	Parameter START_WRITE bound to: 3'b010 
+	Parameter WAIT_For_BUSY_SIG bound to: 3'b011 
+	Parameter WAIT_For_UNBUSY bound to: 3'b100 
+	Parameter FINISH bound to: 3'b101 
+INFO: [Synth 8-6157] synthesizing module 'WriteToRegister' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/WriteToRegister.v:21]
+	Parameter LENGTH_BIT_COUNT bound to: 4 - type: integer 
+	Parameter MAXLENGTH bound to: 8 - type: integer 
+	Parameter MAXLENGTH8 bound to: 64 - type: integer 
+	Parameter IDLE bound to: 2'b00 
+	Parameter READY bound to: 2'b01 
+	Parameter SEND bound to: 2'b10 
+	Parameter FINISH bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'WriteToRegister' (7#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/WriteToRegister.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/DDSControl.v:118]
+INFO: [Synth 8-6155] done synthesizing module 'DDSControl' (8#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/DDSControl.v:12]
+INFO: [Synth 8-6157] synthesizing module 'FIFO' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1/.Xil/Vivado-16148-LAPTOP-HJ8BQ6UU/realtime/FIFO_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'FIFO' (9#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1/.Xil/Vivado-16148-LAPTOP-HJ8BQ6UU/realtime/FIFO_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1/.Xil/Vivado-16148-LAPTOP-HJ8BQ6UU/realtime/RAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (10#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1/.Xil/Vivado-16148-LAPTOP-HJ8BQ6UU/realtime/RAM_stub.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:533]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:942]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:1230]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:1264]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:1303]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:1494]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:500]
+WARNING: [Synth 8-6014] Unused sequential element DDS_PWR_0_reg was removed.  [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:680]
+INFO: [Synth 8-6155] done synthesizing module 'main' (11#1) [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:22]
+WARNING: [Synth 8-3331] design DDSControl has unconnected port ChipSelect[3]
+WARNING: [Synth 8-3331] design DDSControl has unconnected port ChipSelect[2]
+WARNING: [Synth 8-3331] design main has unconnected port ADC__BCS_bar
+WARNING: [Synth 8-3331] design main has unconnected port ADC__BDn2
+WARNING: [Synth 8-3331] design main has unconnected port ADC__BDn1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 777.617 ; gain = 248.402
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 777.617 ; gain = 248.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 777.617 ; gain = 248.402
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1/.Xil/Vivado-16148-LAPTOP-HJ8BQ6UU/FIFO/FIFO/FIFO_in_context.xdc] for cell 'ADC_FIFO'
+Finished Parsing XDC File [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1/.Xil/Vivado-16148-LAPTOP-HJ8BQ6UU/FIFO/FIFO/FIFO_in_context.xdc] for cell 'ADC_FIFO'
+Parsing XDC File [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1/.Xil/Vivado-16148-LAPTOP-HJ8BQ6UU/RAM/RAM/RAM_in_context.xdc] for cell 'FTW_RAM'
+Finished Parsing XDC File [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1/.Xil/Vivado-16148-LAPTOP-HJ8BQ6UU/RAM/RAM/RAM_in_context.xdc] for cell 'FTW_RAM'
+Parsing XDC File [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/constrs_1/new/map.xdc]
+Finished Parsing XDC File [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/constrs_1/new/map.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/constrs_1/new/map.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 945.039 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 945.039 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'FTW_RAM' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 947.051 ; gain = 417.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 947.051 ; gain = 417.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for ADC_FIFO. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for FTW_RAM. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 947.051 ; gain = 417.836
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'async_receiver'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'string_reader'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'async_transmitter'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'string_sender'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'WriteToRegister'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'DDSControl'
+INFO: [Synth 8-4471] merging register 'PowerDown00_reg' into 'ResetDDS0_reg' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:538]
+INFO: [Synth 8-4471] merging register 'PowerDown01_reg' into 'ResetDDS0_reg' [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:539]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:1085]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:1044]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <multiplier> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:942]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Register_Name_reg' and it is trimmed from '128' to '104' bits. [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:1346]
+INFO: [Synth 8-5546] ROM "ResetDDS0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fifo_rst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PLL_ERR_Sign" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "shift_counter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 3 [C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.srcs/sources_1/new/main.v:1056]
+INFO: [Synth 8-5546] ROM "ResetDDS0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fifo_rst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PLL_ERR_Sign" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "shift_counter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "TXString" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE5 |                      00000000001 |                             0000
+                 iSTATE7 |                      00000000010 |                             1000
+                 iSTATE6 |                      00000000100 |                             1001
+                 iSTATE3 |                      00000001000 |                             1010
+                 iSTATE1 |                      00000010000 |                             1011
+                 iSTATE2 |                      00000100000 |                             1100
+                 iSTATE0 |                      00001000000 |                             1101
+                 iSTATE9 |                      00010000000 |                             1110
+                 iSTATE8 |                      00100000000 |                             1111
+                 iSTATE4 |                      01000000000 |                             0001
+                  iSTATE |                      10000000000 |                             0011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'async_receiver'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                            00001 |                              000
+                 ANALYZE |                            00010 |                              010
+                FINISHED |                            00100 |                              100
+                NEW_CHAR |                            01000 |                              011
+                 STARTED |                            10000 |                              001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'string_reader'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE7 |                    0000000000001 |                             0000
+                 iSTATE6 |                    0000000000010 |                             0001
+                 iSTATE0 |                    0000000000100 |                             0100
+                 iSTATE9 |                    0000000001000 |                             1000
+                 iSTATE8 |                    0000000010000 |                             1001
+                 iSTATE5 |                    0000000100000 |                             1010
+                 iSTATE4 |                    0000001000000 |                             1011
+                 iSTATE3 |                    0000010000000 |                             1100
+                 iSTATE1 |                    0000100000000 |                             1101
+                iSTATE11 |                    0001000000000 |                             1110
+                iSTATE10 |                    0010000000000 |                             1111
+                 iSTATE2 |                    0100000000000 |                             0010
+                  iSTATE |                    1000000000000 |                             0011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'async_transmitter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                             0000
+              CHAR_SHIFT |                              001 |                             0010
+               START_TxD |                              010 |                             0011
+       WAIT_FOR_TxD_BUSY |                              011 |                             0100
+     WAIT_FOR_TxD_FINISH |                              100 |                             0101
+           END_START_TxD |                              101 |                             1010
+   END_WAIT_FOR_TxD_BUSY |                              110 |                             1011
+ END_WAIT_FOR_TxD_FINISH |                              111 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'string_sender'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                             0001 |                               00
+                   READY |                             0010 |                               01
+                    SEND |                             0100 |                               10
+                  FINISH |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'WriteToRegister'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                           000001 |                              000
+              SHIFT_DATA |                           000010 |                              001
+             START_WRITE |                           000100 |                              010
+       WAIT_For_BUSY_SIG |                           001000 |                              011
+         WAIT_For_UNBUSY |                           010000 |                              100
+                  FINISH |                           100000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'DDSControl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 947.051 ; gain = 417.836
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     48 Bit       Adders := 2     
+	   2 Input     48 Bit       Adders := 2     
+	   2 Input     40 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 5     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	              128 Bit    Registers := 3     
+	              104 Bit    Registers := 1     
+	               64 Bit    Registers := 5     
+	               48 Bit    Registers := 2     
+	               40 Bit    Registers := 1     
+	               24 Bit    Registers := 2     
+	               20 Bit    Registers := 2     
+	               17 Bit    Registers := 2     
+	               16 Bit    Registers := 4     
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 7     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 9     
+	                1 Bit    Registers := 37    
++---Muxes : 
+	   5 Input    128 Bit        Muxes := 3     
+	   2 Input    128 Bit        Muxes := 17    
+	   8 Input    128 Bit        Muxes := 2     
+	  24 Input    128 Bit        Muxes := 2     
+	   3 Input    128 Bit        Muxes := 1     
+	   4 Input    128 Bit        Muxes := 1     
+	   7 Input    128 Bit        Muxes := 1     
+	  21 Input    128 Bit        Muxes := 1     
+	  10 Input    128 Bit        Muxes := 1     
+	   5 Input     64 Bit        Muxes := 1     
+	   4 Input     64 Bit        Muxes := 2     
+	   6 Input     64 Bit        Muxes := 1     
+	  10 Input     64 Bit        Muxes := 2     
+	  13 Input     64 Bit        Muxes := 2     
+	   2 Input     48 Bit        Muxes := 3     
+	  21 Input     48 Bit        Muxes := 1     
+	   4 Input     48 Bit        Muxes := 1     
+	  10 Input     40 Bit        Muxes := 1     
+	   2 Input     40 Bit        Muxes := 1     
+	  10 Input     24 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 2     
+	  21 Input     24 Bit        Muxes := 1     
+	  13 Input     13 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 1     
+	  11 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	   8 Input      8 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 1     
+	  24 Input      8 Bit        Muxes := 1     
+	  10 Input      8 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 4     
+	   2 Input      6 Bit        Muxes := 2     
+	   5 Input      5 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 4     
+	   8 Input      5 Bit        Muxes := 2     
+	  24 Input      5 Bit        Muxes := 1     
+	  21 Input      5 Bit        Muxes := 1     
+	  11 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 14    
+	  13 Input      4 Bit        Muxes := 1     
+	  22 Input      4 Bit        Muxes := 2     
+	  21 Input      4 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	  30 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 8     
+	   7 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	  21 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	  13 Input      2 Bit        Muxes := 3     
+	   3 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	  21 Input      2 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 52    
+	  11 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 7     
+	  13 Input      1 Bit        Muxes := 10    
+	   8 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 25    
+	   6 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 41    
+	  24 Input      1 Bit        Muxes := 11    
+	  21 Input      1 Bit        Muxes := 20    
+	  33 Input      1 Bit        Muxes := 3     
+	  30 Input      1 Bit        Muxes := 2     
+	  22 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     48 Bit       Adders := 2     
+	   2 Input     48 Bit       Adders := 2     
+	   2 Input     40 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	              128 Bit    Registers := 1     
+	              104 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	               48 Bit    Registers := 2     
+	               40 Bit    Registers := 1     
+	               24 Bit    Registers := 2     
+	               20 Bit    Registers := 2     
+	               16 Bit    Registers := 4     
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	  24 Input    128 Bit        Muxes := 2     
+	   3 Input    128 Bit        Muxes := 1     
+	   2 Input    128 Bit        Muxes := 12    
+	   4 Input    128 Bit        Muxes := 1     
+	   5 Input    128 Bit        Muxes := 2     
+	   7 Input    128 Bit        Muxes := 1     
+	  21 Input    128 Bit        Muxes := 1     
+	  10 Input    128 Bit        Muxes := 1     
+	  10 Input     64 Bit        Muxes := 2     
+	  13 Input     64 Bit        Muxes := 2     
+	   2 Input     48 Bit        Muxes := 3     
+	  21 Input     48 Bit        Muxes := 1     
+	   4 Input     48 Bit        Muxes := 1     
+	  10 Input     40 Bit        Muxes := 1     
+	   2 Input     40 Bit        Muxes := 1     
+	  10 Input     24 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 2     
+	  21 Input     24 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 5     
+	  24 Input      8 Bit        Muxes := 1     
+	  10 Input      8 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 4     
+	   2 Input      6 Bit        Muxes := 1     
+	  24 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	  21 Input      5 Bit        Muxes := 1     
+	  22 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 11    
+	  21 Input      4 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	  30 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 6     
+	   3 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	  21 Input      3 Bit        Muxes := 1     
+	  13 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 4     
+	   3 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	  21 Input      2 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 46    
+	   3 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 41    
+	   4 Input      1 Bit        Muxes := 17    
+	  24 Input      1 Bit        Muxes := 11    
+	  21 Input      1 Bit        Muxes := 20    
+	  13 Input      1 Bit        Muxes := 9     
+	  33 Input      1 Bit        Muxes := 3     
+	  30 Input      1 Bit        Muxes := 2     
+	  22 Input      1 Bit        Muxes := 1     
+Module async_receiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  11 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	  11 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	  11 Input      1 Bit        Muxes := 1     
+Module ascii2hex 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+Module string_reader 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   5 Input    128 Bit        Muxes := 1     
+	   5 Input     64 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 7     
+Module async_transmitter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  13 Input     13 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+Module hex2ascii 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+Module string_sender 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
++---Registers : 
+	              128 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 5     
+	   8 Input    128 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 7     
+Module WriteToRegister 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     64 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+Module DDSControl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   6 Input     64 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP p_1_out, operation Mode is: A*B.
+DSP Report: operator p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator p_0_out is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: A*B.
+DSP Report: operator p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator p_0_out is absorbed into DSP p_1_out.
+DSP Report: Generating DSP p_1_out, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator p_1_out is absorbed into DSP p_1_out.
+DSP Report: operator p_0_out is absorbed into DSP p_1_out.
+WARNING: [Synth 8-3331] design DDSControl has unconnected port ChipSelect[3]
+WARNING: [Synth 8-3331] design DDSControl has unconnected port ChipSelect[2]
+WARNING: [Synth 8-3331] design main has unconnected port ADC__BCS_bar
+WARNING: [Synth 8-3331] design main has unconnected port ADC__BDn2
+WARNING: [Synth 8-3331] design main has unconnected port ADC__BDn1
+INFO: [Synth 8-3886] merging instance 'TXString_reg[51]' (FDE) to 'TXString_reg[50]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[50]' (FDE) to 'TXString_reg[68]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[49]' (FDE) to 'TXString_reg[54]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[54]' (FDE) to 'TXString_reg[48]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[53]' (FDE) to 'TXString_reg[55]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[55]' (FDE) to 'TXString_reg[52]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[52]' (FDE) to 'TXString_reg[61]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[48]' (FDE) to 'TXString_reg[57]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[59]' (FDE) to 'TXString_reg[58]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[58]' (FDE) to 'TXString_reg[56]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[57]' (FDE) to 'TXString_reg[62]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[62]' (FDE) to 'TXString_reg[60]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[61]' (FDE) to 'TXString_reg[63]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[63]' (FDE) to 'TXString_reg[67]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[60]' (FDE) to 'TXString_reg[66]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[67]' (FDE) to 'TXString_reg[69]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[66]' (FDE) to 'TXString_reg[65]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[65]' (FDE) to 'TXString_reg[70]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[70]' (FDE) to 'TXString_reg[64]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[69]' (FDE) to 'TXString_reg[71]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\TXString_reg[71] )
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[48]' (FDE) to 'DDS_Data_reg[49]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[75]' (FDE) to 'TXString_reg[74]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[74]' (FDE) to 'TXString_reg[73]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[73]' (FDE) to 'TXString_reg[78]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[78]' (FDE) to 'TXString_reg[83]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[77]' (FDE) to 'TXString_reg[79]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[79]' (FDE) to 'TXString_reg[76]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[76]' (FDE) to 'TXString_reg[72]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[72]' (FDE) to 'TXString_reg[85]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[49]' (FDE) to 'DDS_Data_reg[56]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[56]' (FDE) to 'DDS_Data_reg[51]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[83]' (FDE) to 'TXString_reg[82]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[82]' (FDE) to 'TXString_reg[81]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[81]' (FDE) to 'TXString_reg[86]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[86]' (FDE) to 'TXString_reg[80]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[85]' (FDE) to 'TXString_reg[87]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[87]' (FDE) to 'TXString_reg[84]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[84]' (FDE) to 'TXString_reg[91]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[80]' (FDE) to 'TXString_reg[89]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[50]' (FDE) to 'DDS_Data_reg[57]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[57]' (FDE) to 'DDS_Data_reg[58]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[91]' (FDE) to 'TXString_reg[90]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[90]' (FDE) to 'TXString_reg[93]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[89]' (FDE) to 'TXString_reg[94]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[94]' (FDE) to 'TXString_reg[92]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[93]' (FDE) to 'TXString_reg[95]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[95]' (FDE) to 'TXString_reg[88]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[92]' (FDE) to 'TXString_reg[98]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[88]' (FDE) to 'TXString_reg[99]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[51]' (FDE) to 'DDS_Data_reg[53]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[58]' (FDE) to 'DDS_Data_reg[52]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[99]' (FDE) to 'TXString_reg[101]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[98]' (FDE) to 'TXString_reg[97]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[97]' (FDE) to 'TXString_reg[102]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[102]' (FDE) to 'TXString_reg[100]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[101]' (FDE) to 'TXString_reg[103]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\TXString_reg[103] )
+INFO: [Synth 8-3886] merging instance 'TXString_reg[100]' (FDE) to 'TXString_reg[96]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[52]' (FDE) to 'DDS_Data_reg[59]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[59]' (FDE) to 'DDS_Data_reg[60]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[107]' (FDE) to 'TXString_reg[106]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[106]' (FDE) to 'TXString_reg[105]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[105]' (FDE) to 'TXString_reg[110]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[110]' (FDE) to 'TXString_reg[109]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[109]' (FDE) to 'TXString_reg[111]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[111]' (FDE) to 'TXString_reg[108]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[108]' (FDE) to 'TXString_reg[104]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[104]' (FDE) to 'TXString_reg[115]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[53]' (FDE) to 'DDS_Data_reg[61]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[60]' (FDE) to 'DDS_Data_reg[54]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[115]' (FDE) to 'TXString_reg[114]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[114]' (FDE) to 'TXString_reg[113]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[113]' (FDE) to 'TXString_reg[118]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[118]' (FDE) to 'TXString_reg[117]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[117]' (FDE) to 'TXString_reg[119]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[119]' (FDE) to 'TXString_reg[116]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[116]' (FDE) to 'TXString_reg[112]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[112]' (FDE) to 'TXString_reg[123]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\TXStringLen_reg[4] )
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[54]' (FDE) to 'DDS_Data_reg[63]'
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[61]' (FDE) to 'DDS_Data_reg[55]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[123]' (FDE) to 'TXString_reg[122]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[122]' (FDE) to 'TXString_reg[121]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[121]' (FDE) to 'TXString_reg[126]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[126]' (FDE) to 'TXString_reg[125]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[125]' (FDE) to 'TXString_reg[127]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[127]' (FDE) to 'TXString_reg[124]'
+INFO: [Synth 8-3886] merging instance 'TXString_reg[124]' (FDE) to 'TXString_reg[120]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\TXString_reg[120] )
+INFO: [Synth 8-3886] merging instance 'DDS_Data_reg[55]' (FDE) to 'DDS_Data_reg[62]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\DDS_Data_reg[62] )
+INFO: [Synth 8-3886] merging instance 'HOME_Mode_Saved_reg[2]' (FDE) to 'HOME_Mode_Saved_reg[3]'
+INFO: [Synth 8-3886] merging instance 'HOME_Mode_Saved_reg[3]' (FDE) to 'HOME_Mode_Saved_reg[1]'
+INFO: [Synth 8-3886] merging instance 'RUN_state_reg[7]' (FDE) to 'RUN_state_reg[6]'
+INFO: [Synth 8-3886] merging instance 'RUN_state_reg[6]' (FDE) to 'RUN_state_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RUN_state_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\DDS_Data_reg[63] )
+INFO: [Synth 8-3886] merging instance 'DDS_Data_Bytes_reg[1]' (FDE) to 'DDS_Data_Bytes_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ResetDDS0_reg)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 947.051 ; gain = 417.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|main        | ram_addr   | 32x3          | LUT            | 
++------------+------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|main        | A*B            | 14     | 14     | -      | -      | 14     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|main        | A*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|main        | (PCIN>>17)+A*B | 21     | 18     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 947.051 ; gain = 417.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:14 ; elapsed = 00:01:18 . Memory (MB): peak = 1061.816 ; gain = 532.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:17 ; elapsed = 00:01:21 . Memory (MB): peak = 1062.820 ; gain = 533.605
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:20 ; elapsed = 00:01:24 . Memory (MB): peak = 1062.820 ; gain = 533.605
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:20 ; elapsed = 00:01:24 . Memory (MB): peak = 1062.820 ; gain = 533.605
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 1062.820 ; gain = 533.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 1062.820 ; gain = 533.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 1062.820 ; gain = 533.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 1062.820 ; gain = 533.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |FIFO          |         1|
+|2     |RAM           |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |FIFO    |     1|
+|2     |RAM     |     1|
+|3     |BUFG    |     2|
+|4     |CARRY4  |   194|
+|5     |DSP48E1 |     3|
+|6     |LUT1    |    38|
+|7     |LUT2    |   270|
+|8     |LUT3    |   623|
+|9     |LUT4    |   338|
+|10    |LUT5    |   301|
+|11    |LUT6    |   617|
+|12    |MUXF7   |     1|
+|13    |FDRE    |  1196|
+|14    |FDSE    |    20|
+|15    |IBUF    |    19|
+|16    |OBUF    |     9|
++------+--------+------+
+
+Report Instance Areas: 
++------+-------------+------------------+------+
+|      |Instance     |Module            |Cells |
++------+-------------+------------------+------+
+|1     |top          |                  |  3733|
+|2     |  DDS        |DDSControl        |   519|
+|3     |    WTR00    |WriteToRegister   |   161|
+|4     |    WTR01    |WriteToRegister_0 |   159|
+|5     |  STR_READER |string_reader     |   841|
+|6     |    RXUSB    |async_receiver    |    85|
+|7     |  STR_SENDER |string_sender     |   391|
+|8     |    TXUSB    |async_transmitter |    73|
++------+-------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 1062.820 ; gain = 533.605
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:08 ; elapsed = 00:01:20 . Memory (MB): peak = 1062.820 ; gain = 364.172
+Synthesis Optimization Complete : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 1062.820 ; gain = 533.605
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 198 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1062.820 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+171 Infos, 44 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:30 ; elapsed = 00:01:35 . Memory (MB): peak = 1062.820 ; gain = 767.840
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1062.820 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Feb  1 17:57:20 2020...

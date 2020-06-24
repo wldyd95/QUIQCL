@@ -1,0 +1,9 @@
+Storage Target: Xilinx Flash/PROM
+Storage Family: Platform Flash
+xcf01s          [1 M]
+FF
+Untitled
+O:\Device Control Scripts\Raman Setup\v4_0\FPGA_Scripts\Raman_FPGA_Controller\
+
+MCS
+No
