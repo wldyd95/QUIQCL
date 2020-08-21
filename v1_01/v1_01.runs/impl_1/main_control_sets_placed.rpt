@@ -1,0 +1,138 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Aug  6 12:19:16 2020
+| Host         : LAPTOP-HJ8BQ6UU running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7s50
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    60 |
+|    Minimum number of control sets                        |    60 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   199 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    60 |
+| >= 0 to < 4        |     7 |
+| >= 4 to < 6        |    12 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |    12 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    19 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            8356 |         3154 |
+| No           | No                    | Yes                    |               7 |            3 |
+| No           | Yes                   | No                     |               6 |            1 |
+| Yes          | No                    | No                     |            2989 |          685 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             163 |           44 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------+----------------+
+|       Clock Signal      |                      Enable Signal                     |                                      Set/Reset Signal                                      | Slice Load Count | Bel Load Count |
++-------------------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------+----------------+
+|  DAC_slow_clock_BUFG[0] | genblk1[0].dac/FSM_onehot_state_reg_n_0_[1]            |                                                                                            |                1 |              1 |
+|  DAC_slow_clock_BUFG[0] | genblk1[1].dac/FSM_onehot_state_reg_n_0_[1]            |                                                                                            |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG    |                                                        | sender/transmitter_FIFO/U0/inst_fifo_gen/gconvfifo.rf/gbi.bi/g7ser_birst.rstbt/wr_rst_reg2 |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/FSM_sequential_main_state_reg[0]_13           |                                                                                            |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG    | sender/TX_full_waveform_buffer_length[8]_i_1_n_0       | sender/TX_full_waveform_buffer_length[5]_i_1_n_0                                           |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG    |                                                        | sender/reset_FIFO_reg_n_0                                                                  |                1 |              2 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/FSM_onehot_main_state_reg[4]            | receiver/RXUSB/FSM_onehot_main_state_reg[3]_5                                              |                1 |              2 |
+| ~DDS_clock_BUFG         |                                                        |                                                                                            |                3 |              4 |
+| ~DDS_clock_BUFG         | WTR1/writeStage                                        |                                                                                            |                1 |              4 |
+| ~DDS_clock_BUFG         | WTR2/writeStage                                        |                                                                                            |                1 |              4 |
+|  CLK100MHZ_IBUF_BUFG    | sender/FIFO_reset_wait_counter[3]_i_1_n_0              | receiver/reset_FIFO4_out                                                                   |                1 |              4 |
+|  CLK100MHZ_IBUF_BUFG    |                                                        | sender/transmitter_FIFO/U0/inst_fifo_gen/gconvfifo.rf/gbi.bi/g7ser_birst.rstbt/rd_rst_i    |                1 |              4 |
+| ~CLK100MHZ_IBUF_BUFG    | device_DNA_inst/FSM_onehot_state[3]_i_1_n_0            |                                                                                            |                2 |              4 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/Baud8Tick                               | receiver/RXUSB/bit_spacing                                                                 |                1 |              4 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/FSM_onehot_main_state_reg[9]_0          |                                                                                            |                2 |              4 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/FSM_onehot_main_state_reg[9]_0          | receiver/RXUSB/FSM_onehot_main_state_reg[9]                                                |                1 |              4 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/FSM_onehot_main_state_reg[2]_0[0]       |                                                                                            |                1 |              4 |
+| ~CLK100MHZ_IBUF_BUFG    |                                                        |                                                                                            |                2 |              4 |
+| ~CLK100MHZ_IBUF_BUFG    | device_DNA_inst/DNA_PORT_counter                       | device_DNA_inst/DNA_PORT_counter[4]_i_1_n_0                                                |                1 |              5 |
+|  CLK100MHZ_IBUF_BUFG    | sender/TX_full_waveform_buffer_length[8]_i_1_n_0       |                                                                                            |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG    |                                                        | led_intensity_modulator/led0_r_i_1_n_0                                                     |                1 |              6 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/FSM_onehot_main_state_reg[4]            |                                                                                            |                2 |              6 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/CMD_Ready_reg_2                               |                                                                                            |                1 |              6 |
+|  CLK100MHZ_IBUF_BUFG    | sender/TX_full_buffer1[113]_i_2_n_0                    | sender/TX_full_buffer1[113]_i_1_n_0                                                        |                1 |              8 |
+|  CLK100MHZ_IBUF_BUFG    | sender/FIFO_din[7]_i_1_n_0                             |                                                                                            |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/p_6_out[0]                                    |                                                                                            |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG    | sender/TXUSB/TxD_dataReg0                              |                                                                                            |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/p_5_out[0]                                    |                                                                                            |                1 |              8 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/FSM_sequential_main_state_reg[0]_14[0]        |                                                                                            |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/FSM_sequential_escape_state_reg[2]_0[0] |                                                                                            |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/RxD_data06_out                          |                                                                                            |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/reset_FIFO4_out                               |                                                                                            |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/FSM_onehot_main_state_reg[2][0]         |                                                                                            |                4 |              9 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/p_9_out[0]                                    |                                                                                            |                3 |              9 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/p_10_out[0]                                   |                                                                                            |                2 |              9 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/E[0]                                          |                                                                                            |                7 |             10 |
+|  DAC_slow_clock_BUFG[0] |                                                        |                                                                                            |                3 |             10 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/FSM_onehot_state[9]_i_1_n_0             |                                                                                            |                3 |             10 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/CMD_Ready_reg_1                               |                                                                                            |                2 |             11 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/FSM_sequential_main_state_reg[0]_10           |                                                                                            |                3 |             12 |
+|  CLK100MHZ_IBUF_BUFG    | sender/TXUSB/FSM_onehot_state[12]_i_1_n_0              |                                                                                            |                3 |             13 |
+|  CLK100MHZ_IBUF_BUFG    | sender/TXUSB/TxD_busy                                  |                                                                                            |                5 |             17 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/FSM_sequential_main_state_reg[2]_8[0]         |                                                                                            |                4 |             24 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/FSM_sequential_main_state_reg[0]_11           |                                                                                            |                8 |             24 |
+|  DAC_slow_clock_BUFG[0] | genblk1[0].dac/genblk1[0].dac/                         |                                                                                            |                8 |             30 |
+|  DAC_slow_clock_BUFG[0] | genblk1[1].dac/genblk1[1].dac/                         |                                                                                            |                8 |             30 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/RxD_data_ready_reg_0                    | receiver/esc_char_detected                                                                 |               13 |             31 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/FSM_sequential_main_state_reg[0]_12           |                                                                                            |                6 |             32 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/FSM_sequential_main_state_reg[2]_9[0]         |                                                                                            |                9 |             32 |
+|  CLK100MHZ_IBUF_BUFG    | sender/FSM_onehot_main_state[9]_i_2_n_0                | receiver/reset_FIFO4_out                                                                   |               13 |             44 |
+|  CLK100MHZ_IBUF_BUFG    | sender/TX_full_buffer1_length[4]_i_1_n_0               |                                                                                            |               17 |             45 |
+| ~CLK100MHZ_IBUF_BUFG    | device_DNA_inst/DNA_PORT_value[59]_i_2_n_0             | device_DNA_inst/DNA_PORT_value[59]_i_1_n_0                                                 |               11 |             60 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/FSM_sequential_main_state_reg[2]_7[0]         |                                                                                            |               13 |             68 |
+| ~DDS_clock_BUFG         | WTR2/data_0                                            |                                                                                            |               21 |             71 |
+| ~DDS_clock_BUFG         | WTR1/data                                              |                                                                                            |               21 |             71 |
+|  CLK100MHZ_IBUF_BUFG    | sender/TX_full_buffer1[41]_i_1_n_0                     |                                                                                            |               18 |             72 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/E[0]                                    |                                                                                            |               37 |            112 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/esc_char_detected_reg_0[0]              |                                                                                            |               40 |            116 |
+|  CLK100MHZ_IBUF_BUFG    | receiver/RXUSB/RxD_data_reg[0]_1[0]                    |                                                                                            |              408 |           2057 |
+|  CLK100MHZ_IBUF_BUFG    |                                                        |                                                                                            |             3146 |           8339 |
++-------------------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------+----------------+
+
+
