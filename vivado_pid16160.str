@@ -1,0 +1,116 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 16160
+License: Customer
+
+Current time: 	Mon Jul 20 21:19:03 KST 2020
+Time zone: 	Korea Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 2560x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 59 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	QC109_3
+User home directory: C:/Users/QC109_3
+User working directory: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.1/verilog
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/QC109_3/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/QC109_3/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/QC109_3/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.1/verilog/vivado.log
+Vivado journal file location: 	Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.1/verilog/vivado.jou
+Engine tmp dir: 	Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.1/verilog/.Xil/Vivado-16160-QC109-3
+
+GUI allocated memory:	180 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 548 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 45 MB (+44888kb) [00:00:05]
+// [Engine Memory]: 521 MB (+394500kb) [00:00:05]
+// bs (cl):  Open Project : addNotify
+// Opening Vivado Project: Q:\Users\swYoo\Arty S7\lag_comp\lag_comp_v1.1\verilog\v1_00.xpr. Version: Vivado v2017.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// Tcl Message: open_project {Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.1/verilog/v1_00.xpr} 
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 50 MB (+2480kb) [00:00:10]
+// [Engine Memory]: 551 MB (+4701kb) [00:00:10]
+// [GUI Memory]: 67 MB (+15177kb) [00:00:10]
+// [Engine Memory]: 579 MB (+290kb) [00:00:11]
+// [GUI Memory]: 78 MB (+8521kb) [00:00:12]
+// [Engine Memory]: 616 MB (+8074kb) [00:00:12]
+// [GUI Memory]: 84 MB (+1375kb) [00:00:12]
+// Tcl Message: open_project {Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.1/verilog/v1_00.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/verilog/lag_comp_v1.1_load_dac/verilog' since last save. 
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 44 MB. Current time: 7/20/20 9:19:09 PM KST
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'. 
+// Project name: v1_00; location: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.1/verilog; part: xc7s50csga324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 801.477 ; gain = 30.629 
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv), receiver : data_receiver (data_receiver_v1_00.v)]", 2, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv), receiver : data_receiver (data_receiver_v1_00.v)]", 2, true, false, false, false, true, false); // B (D, cl) - Popup Trigger - Node
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 201, 142); // cd (w, cl)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// [Engine Memory]: 652 MB (+5200kb) [00:00:22]
+// Elapsed time: 19 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 302, 334); // cd (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 673 MB. GUI used memory: 46 MB. Current time: 7/20/20 9:19:50 PM KST
+// Elapsed time: 43 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 471, 248); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+// Elapsed time: 25 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "con_load", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "con_load"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "con_load"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "con_load"); // l (aP, cl)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// [GUI Memory]: 88 MB (+692kb) [00:04:00]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 223 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load_data_buffer"); // l (aP, cl)
+// [GUI Memory]: 93 MB (+654kb) [00:06:07]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// [GUI Memory]: 99 MB (+512kb) [00:24:17]

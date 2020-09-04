@@ -1,0 +1,490 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 20628
+License: Customer
+
+Current time: 	Tue Jul 28 21:24:37 KST 2020
+Time zone: 	Korea Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 2560x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 59 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	QC109_3
+User home directory: C:/Users/QC109_3
+User working directory: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/QC109_3/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/QC109_3/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/QC109_3/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/vivado.log
+Vivado journal file location: 	Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/vivado.jou
+Engine tmp dir: 	Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/.Xil/Vivado-20628-QC109-3
+
+GUI allocated memory:	180 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 524 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: Q:\Users\swYoo\Arty S7\lag_comp\lag_comp_v1.3_adding_dac_only\verilog\v1_00.xpr. Version: Vivado v2017.3 
+// bs (cl):  Open Project : addNotify
+// [GUI Memory]: 53 MB (+53124kb) [00:00:05]
+// [Engine Memory]: 494 MB (+366299kb) [00:00:05]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 59 MB (+3655kb) [00:00:09]
+// [Engine Memory]: 585 MB (+69730kb) [00:00:09]
+// [GUI Memory]: 64 MB (+1796kb) [00:00:11]
+// [Engine Memory]: 630 MB (+16521kb) [00:00:11]
+// [GUI Memory]: 78 MB (+11048kb) [00:00:12]
+// Tcl Message: open_project {Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 648 MB. GUI used memory: 43 MB. Current time: 7/28/20 9:24:42 PM KST
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 837.980 ; gain = 107.398 
+// Project name: v1_00; location: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog; part: xc7s50csga324-1
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv), receiver : data_receiver (data_receiver_v1_00.v)]", 2, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv), comp : COMP_Control (COMP_Control.v)]", 6, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv), comp : COMP_Control (COMP_Control.v)]", 6, false); // B (D, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv), comp : COMP_Control (COMP_Control.v)]", 6, false, false, false, false, false, true); // B (D, cl) - Double Click
+// [GUI Memory]: 86 MB (+5082kb) [00:00:47]
+// [GUI Memory]: 99 MB (+8564kb) [00:00:47]
+// [Engine Memory]: 665 MB (+3224kb) [00:00:47]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_without_capture_waveform_data_v1_00.sv", 1); // k (j, cl)
+// [GUI Memory]: 116 MB (+12578kb) [00:00:47]
+// [GUI Memory]: 128 MB (+6563kb) [00:00:47]
+// [Engine Memory]: 709 MB (+11977kb) [00:00:49]
+// HMemoryUtils.trashcanNow. Engine heap size: 711 MB. GUI used memory: 51 MB. Current time: 7/28/20 9:25:19 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 732 MB. GUI used memory: 50 MB. Current time: 7/28/20 9:26:24 PM KST
+// Elapsed time: 248 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 486, 282); // cd (w, cl)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CONST_SHOOT", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CONST_SHOOT"); // l (aP, cl)
+// Elapsed time: 317 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk1khz", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk1khz"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk1khz"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk1khz"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk1khz"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk1khz"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk1khz"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk1khz"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk1khz"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk1khz"); // l (aP, cl)
+// Elapsed time: 102 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 77, 248); // cd (w, cl)
+// Elapsed time: 31 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 97, 304); // cd (w, cl)
+// Elapsed time: 28 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 111, 428); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 139, 120); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 45, 235); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 63, 258); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 101, 253); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 90, 207); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 110, 167); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 128, 117); // cd (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 91, 115); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 76, 77); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 53, 225); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 64, 182); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 92, 87); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 53, 298); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 81, 211); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 94, 160); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 96, 124); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 97, 80); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 123, 231); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 104, 182); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 97, 144); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 106, 133); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 66, 140); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 297, 51); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 211, 205); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 4, 181); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 48, 364); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 74, 322); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 76, 341); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 102, 363); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 75, 386); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 77, 411); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 107, 432); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 52, 254); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 19, 98); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 20, 101, false, false, false, false, true); // cd (w, cl) - Double Click
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 25, 102); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 23, 102); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// bs (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Jul 28 21:39:39 2020] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/synth_1/runme.log [Tue Jul 28 21:39:39 2020] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 53 MB. Current time: 7/28/20 9:56:24 PM KST
+// Elapsed time: 1275 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 79, 115); // cd (w, cl)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (N, cl)
+// bs (cl):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_SYNTHESIS_Cancel Process", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 401, 258); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u (O, cl)
+// TclEventType: DG_GRAPH_GENERATED
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bs (cl):  Resetting Runs : addNotify
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+dismissDialog("Resetting Runs"); // bs (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Jul 28 22:01:09 2020] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/synth_1/runme.log [Tue Jul 28 22:01:09 2020] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 739 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 415, 344); // cd (w, cl)
+// Elapsed time: 316 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 542, 272); // cd (w, cl)
+// Elapsed time: 113 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 116, 360); // cd (w, cl)
+// Elapsed time: 47 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// Elapsed time: 88 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 1230, 164); // cd (w, cl)
+// Elapsed time: 139 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 206, 124); // cd (w, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+// Elapsed time: 27 seconds
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 52 MB. Current time: 7/28/20 10:26:25 PM KST
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cl)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cl)
+// Elapsed time: 79 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 238, 237); // cd (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 105, 351); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Jul 28 22:28:27 2020] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/synth_1/runme.log [Tue Jul 28 22:28:27 2020] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 52 MB. Current time: 7/28/20 10:56:25 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/28/20 11:26:25 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/28/20 11:56:26 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 12:26:26 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 12:56:26 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 1:26:26 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 1:56:27 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 2:26:27 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 2:56:27 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 3:26:28 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 3:56:28 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 4:26:28 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 4:56:28 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 5:26:29 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 5:56:29 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 6:26:29 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 6:56:30 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 7:26:30 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 7:56:30 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 8:26:31 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 8:56:31 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 9:26:31 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 9:56:32 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 10:26:32 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 10:56:32 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 11:26:32 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 11:56:33 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 12:26:33 PM KST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 12:56:33 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 1:26:34 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 1:56:34 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 2:26:34 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 2:56:35 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 3:26:35 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 3:56:35 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 4:26:36 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 4:56:36 PM KST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 5:26:36 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 5:56:37 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 6:26:37 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 6:56:37 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 7:26:38 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 7:56:38 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 8:26:39 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/29/20 8:56:39 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 9:26:39 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 9:56:40 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 10:26:40 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 10:56:41 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 11:26:41 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/29/20 11:56:41 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 12:26:42 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 12:56:42 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/30/20 1:26:42 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 1:56:43 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 2:26:43 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 2:56:43 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 3:26:44 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 3:56:44 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 4:26:45 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 4:56:45 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 5:26:45 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 5:56:46 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 6:26:46 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 6:56:46 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 7:26:47 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 7:56:47 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 8:26:48 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 8:56:48 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 9:26:48 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 9:56:49 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 10:26:49 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 10:56:50 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 11:26:50 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 11:56:50 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 12:26:51 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 12:56:51 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 1:26:51 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 1:56:52 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/30/20 2:26:52 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 2:56:53 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 3:26:53 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 3:56:53 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 4:26:54 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 4:56:54 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 5:26:54 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/30/20 5:56:55 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 6:26:55 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 6:56:55 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 7:26:56 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 7:56:56 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 8:26:57 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 8:56:57 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 9:26:57 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/30/20 9:56:58 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/30/20 10:26:58 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 10:56:58 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 11:26:59 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/30/20 11:56:59 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/31/20 12:27:00 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 12:57:00 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 1:27:00 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/31/20 1:57:01 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 2:27:01 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/31/20 2:57:02 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 3:27:02 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/31/20 3:57:02 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 4:27:03 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 4:57:03 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/31/20 5:27:03 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 5:57:04 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/31/20 6:27:04 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 6:57:05 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/31/20 7:27:05 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 7:57:05 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 8:27:06 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/31/20 8:57:06 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 9:27:06 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 9:57:07 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/31/20 10:27:07 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 10:57:08 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 11:27:08 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 11:57:08 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 12:27:09 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 12:57:09 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 1:27:09 PM KST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 1:57:10 PM KST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 50 MB. Current time: 7/31/20 2:27:10 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 737 MB. GUI used memory: 51 MB. Current time: 7/31/20 2:57:11 PM KST

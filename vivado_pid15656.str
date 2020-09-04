@@ -1,0 +1,141 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 15656
+License: Customer
+
+Current time: 	Tue Aug 04 11:06:13 KST 2020
+Time zone: 	Korea Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 2560x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 635 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	user
+User home directory: C:/Users/user
+User working directory: C:/Users/user/Downloads/lag_comp_v1.3_revised/verilog
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/user/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/user/Downloads/lag_comp_v1.3_revised/verilog/vivado.log
+Vivado journal file location: 	C:/Users/user/Downloads/lag_comp_v1.3_revised/verilog/vivado.jou
+Engine tmp dir: 	C:/Users/user/Downloads/lag_comp_v1.3_revised/verilog/.Xil/Vivado-15656-DESKTOP-2AE4FFH
+
+GUI allocated memory:	176 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 572 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 69 MB (+69692kb) [00:00:04]
+// [Engine Memory]: 488 MB (+360647kb) [00:00:04]
+// Opening Vivado Project: C:\Users\user\Downloads\lag_comp_v1.3_revised\verilog\v1_00.xpr. Version: Vivado v2017.3 
+// bs (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/user/Downloads/lag_comp_v1.3_revised/verilog/v1_00.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 78 MB (+5897kb) [00:00:07]
+// [Engine Memory]: 572 MB (+62140kb) [00:00:07]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 92 MB (+11139kb) [00:00:09]
+// [Engine Memory]: 620 MB (+20601kb) [00:00:09]
+// [Engine Memory]: 654 MB (+2206kb) [00:00:11]
+// Tcl Message: open_project C:/Users/user/Downloads/lag_comp_v1.3_revised/verilog/v1_00.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_revised/verilog' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 665 MB. GUI used memory: 49 MB. Current time: 8/4/20 11:06:17 AM KST
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 811.652 ; gain = 136.676 
+// Project name: v1_00; location: C:/Users/user/Downloads/lag_comp_v1.3_revised/verilog; part: xc7s50csga324-1
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 809 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv), receiver : data_receiver (data_receiver_v1_00.v)]", 2, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // x (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 4 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Aug  4 11:20:30 2020] Launched synth_1... Run output will be captured here: C:/Users/user/Downloads/lag_comp_v1.3_revised/verilog/v1_00.runs/synth_1/runme.log [Tue Aug  4 11:20:30 2020] Launched impl_1... Run output will be captured here: C:/Users/user/Downloads/lag_comp_v1.3_revised/verilog/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cl): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 97 MB (+143kb) [00:29:07]
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 54 MB. Current time: 8/4/20 11:36:20 AM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 50 MB. Current time: 8/4/20 12:06:20 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 49 MB. Current time: 8/4/20 12:36:20 PM KST
+// [GUI Memory]: 102 MB (+336kb) [01:38:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 49 MB. Current time: 8/4/20 1:06:21 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 49 MB. Current time: 8/4/20 1:36:21 PM KST
+// Elapsed time: 9215 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 50 MB. Current time: 8/4/20 2:06:21 PM KST
+// [GUI Memory]: 108 MB (+16kb) [03:23:36]
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 49 MB. Current time: 8/4/20 2:36:21 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 49 MB. Current time: 8/4/20 3:06:22 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 680 MB. GUI used memory: 49 MB. Current time: 8/4/20 3:36:22 PM KST
+// Elapsed time: 6721 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cl)

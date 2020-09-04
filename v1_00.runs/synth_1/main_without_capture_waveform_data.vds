@@ -1,0 +1,1806 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Aug 19 12:56:21 2020
+# Process ID: 7464
+# Current directory: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.runs/synth_1
+# Command line: vivado.exe -log main_without_capture_waveform_data.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_without_capture_waveform_data.tcl
+# Log file: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.runs/synth_1/main_without_capture_waveform_data.vds
+# Journal file: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main_without_capture_waveform_data.tcl -notrace
+Command: synth_design -top main_without_capture_waveform_data -part xc7s50csga324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11876 
+WARNING: [Synth 8-2507] parameter declaration becomes local in capture_waveform_data with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/capture_waveform_data_v1_00.sv:94]
+WARNING: [Synth 8-2507] parameter declaration becomes local in capture_waveform_data with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/capture_waveform_data_v1_00.sv:95]
+WARNING: [Synth 8-2507] parameter declaration becomes local in capture_waveform_data with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/capture_waveform_data_v1_00.sv:98]
+WARNING: [Synth 8-2507] parameter declaration becomes local in capture_waveform_data with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/capture_waveform_data_v1_00.sv:99]
+WARNING: [Synth 8-2507] parameter declaration becomes local in capture_waveform_data with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/capture_waveform_data_v1_00.sv:100]
+WARNING: [Synth 8-2507] parameter declaration becomes local in capture_waveform_data with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/capture_waveform_data_v1_00.sv:102]
+WARNING: [Synth 8-2507] parameter declaration becomes local in capture_waveform_data with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/capture_waveform_data_v1_00.sv:103]
+WARNING: [Synth 8-2507] parameter declaration becomes local in capture_waveform_data with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/capture_waveform_data_v1_00.sv:107]
+WARNING: [Synth 8-2507] parameter declaration becomes local in capture_waveform_data with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/capture_waveform_data_v1_00.sv:108]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:131]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:148]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:149]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:151]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:152]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:153]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:156]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:158]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:163]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:165]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:169]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:171]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:175]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:177]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:179]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:180]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:403]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:404]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_sender with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:405]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:128]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:129]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:130]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:131]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:132]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:133]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:227]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:230]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:232]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:235]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:237]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:238]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:239]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:242]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:245]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:247]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:248]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:249]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:252]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:255]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:257]
+WARNING: [Synth 8-2507] parameter declaration becomes local in data_receiver with formal parameter declaration list [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:260]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 366.246 ; gain = 103.641
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main_without_capture_waveform_data' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:33]
+	Parameter ClkFreq bound to: 100000000 - type: integer 
+	Parameter BaudRate bound to: 57600 - type: integer 
+	Parameter BTF_MAX_BYTES bound to: 9'b100000000 
+	Parameter BTF_MAX_BUFFER_WIDTH bound to: 2048 - type: integer 
+	Parameter BTF_MAX_BUFFER_COUNT_WIDTH bound to: 9 - type: integer 
+	Parameter BTF_RX_BUFFER_BYTES bound to: 9'b100000000 
+	Parameter BTF_RX_BUFFER_WIDTH bound to: 2048 - type: integer 
+	Parameter BTF_RX_BUFFER_COUNT_WIDTH bound to: 9 - type: integer 
+	Parameter CMD_RX_BUFFER_BYTES bound to: 4'b1111 
+	Parameter CMD_RX_BUFFER_WIDTH bound to: 120 - type: integer 
+	Parameter TX_BUFFER1_BYTES bound to: 4'b1111 
+	Parameter TX_BUFFER1_WIDTH bound to: 120 - type: integer 
+	Parameter TX_BUFFER1_LENGTH_WIDTH bound to: 4 - type: integer 
+	Parameter TX_BUFFER2_BYTES bound to: 9'b100101100 
+	Parameter TX_BUFFER2_WIDTH bound to: 2400 - type: integer 
+	Parameter TX_BUFFER2_LENGTH_WIDTH bound to: 9 - type: integer 
+	Parameter CMD_IDN bound to: *IDN? - type: string 
+	Parameter IDN_REPLY bound to: DAC v1_00 - type: string 
+	Parameter CMD_TEST bound to: 48'b000100000101010001000101010100110101010000010000 
+	Parameter CMD_DAC_VOLTAGE bound to: DAC VOLTAGE - type: string 
+	Parameter DAC_DATA_WIDTH bound to: 24 - type: integer 
+	Parameter CMD_DAC_START bound to: DAC START - type: string 
+	Parameter CMD_DAC_STOP bound to: DAC STOP - type: string 
+	Parameter CMD_UPDATE_LDAC_LENGTH bound to: LDAC LENGTH - type: string 
+	Parameter CMD_ADC_START bound to: ADC START - type: string 
+	Parameter CMD_ADC_STOP bound to: ADC STOP - type: string 
+	Parameter CMD_ADC_RANGE bound to: ADC RANGE - type: string 
+	Parameter ADC_DATA_WIDTH bound to: 16 - type: integer 
+	Parameter REF_CONST bound to: 131 - type: integer 
+	Parameter CMD_LOAD_LARGE bound to: LOAD LARGE - type: string 
+	Parameter FIFO_length_send bound to: 100 - type: integer 
+	Parameter ADC_length_send bound to: 24 - type: integer 
+	Parameter CMD_ADJUST_SET_BOUND bound to: ADJUST BOUNDARY - type: string 
+	Parameter BOUND_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter CMD_COMP_START bound to: COMP START - type: string 
+	Parameter CMD_COMP_STOP bound to: COMP STOP - type: string 
+	Parameter CMD_COMP_RESET_ACT bound to: COMP RESET ACT - type: string 
+	Parameter CMD_COMP_RESET_DATA bound to: COMP RESET DATA - type: string 
+	Parameter CMD_ADJUST_K0 bound to: COMPENSATOR K0 - type: string 
+	Parameter CMD_ADJUST_K1 bound to: COMPENSATOR K1 - type: string 
+	Parameter CMD_ADJUST_K2 bound to: COMPENSATOR K2 - type: string 
+	Parameter CMD_ADJUST_SET_POINT bound to: COMP SETPOINT - type: string 
+	Parameter CMD_ADJUST_INTENSITY bound to: ADJ INTENSITY - type: string 
+	Parameter CMD_READ_INTENSITY bound to: READ INTENSITY - type: string 
+	Parameter CMD_CAPTURE_BTF_BUFFER bound to: CAPTURE BTF - type: string 
+	Parameter CMD_SET_BTF_BUFFER_READING_COUNT bound to: BTF READ COUNT - type: string 
+	Parameter CMD_READ_BTF_BUFFER bound to: READ BTF - type: string 
+	Parameter CMD_CONST_SHOOT bound to: CONST SHOOT - type: string 
+	Parameter CMD_USER_SAMPLING bound to: USER SAMPLING - type: string 
+	Parameter CMD_TERMINATE_CONDITION bound to: TERM COND - type: string 
+	Parameter CMD_UPDATE_BIT_PATTERNS bound to: UPDATE BITS - type: string 
+	Parameter PATTERN_BYTES bound to: 4 - type: integer 
+	Parameter PATTERN_WIDTH bound to: 32 - type: integer 
+	Parameter CMD_READ_BIT_PATTERNS bound to: READ BITS - type: string 
+	Parameter CMD_UPDATE bound to: UPDATE - type: string 
+	Parameter CMD_LOAD bound to: LOAD - type: string 
+	Parameter CON_WAIT bound to: 3'b000 
+	Parameter CON_UPDATE bound to: 3'b001 
+	Parameter CON_LOAD bound to: 3'b010 
+	Parameter CON_UNKNOWN bound to: 3'b011 
+	Parameter CON_LOAD_LARGE bound to: 3'b100 
+	Parameter OP_WAIT bound to: 3'b000 
+	Parameter OP_ADC bound to: 3'b011 
+	Parameter OP_ADC_WAIT bound to: 3'b001 
+	Parameter OP_COMP bound to: 3'b010 
+	Parameter OP_COMP_WAIT bound to: 3'b110 
+	Parameter OP_DAC bound to: 3'b101 
+	Parameter OP_DAC_WAIT bound to: 3'b100 
+INFO: [Synth 8-638] synthesizing module 'DAC8734' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:23]
+	Parameter STANDBY bound to: 3'b000 
+	Parameter WRITE_DAC bound to: 3'b011 
+	Parameter END_OF_CYCLE bound to: 3'b100 
+INFO: [Synth 8-256] done synthesizing module 'DAC8734' (1#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:23]
+INFO: [Synth 8-638] synthesizing module 'data_receiver' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:24]
+	Parameter BTF_RX_BUFFER_COUNT_WIDTH bound to: 9 - type: integer 
+	Parameter BTF_RX_BUFFER_BYTES bound to: 9'b100000000 
+	Parameter BTF_RX_BUFFER_WIDTH bound to: 2048 - type: integer 
+	Parameter BaudRate bound to: 57600 - type: integer 
+	Parameter ClkFreq bound to: 100000000 - type: integer 
+	Parameter CMD_RX_BUFFER_BYTES bound to: 4'b1111 
+	Parameter CMD_RX_BUFFER_WIDTH bound to: 120 - type: integer 
+	Parameter WAVEFORM_WIDTH bound to: 16 - type: integer 
+	Parameter WAVEFORM_MAX_DEPTH bound to: 1023 - type: integer 
+	Parameter WAVEFORM_COUNTER_WIDTH bound to: 10 - type: integer 
+	Parameter ESC_IDLE bound to: 4'b0000 
+	Parameter ESC_DETECT bound to: 4'b0001 
+	Parameter ESC_C_FOUND bound to: 4'b0010 
+	Parameter ESC_R_FOUND bound to: 4'b0011 
+	Parameter ESC_W_FOUND bound to: 4'b0100 
+	Parameter ESC_A_FOUND bound to: 4'b0101 
+	Parameter MAIN_IDLE bound to: 4'b0000 
+	Parameter MAIN_BTF_READ_NUM_DIGITS bound to: 4'b0001 
+	Parameter MAIN_BTF_READ_BYTE_COUNT bound to: 4'b0010 
+	Parameter MAIN_BTF_READ_RAW_DATA bound to: 4'b0011 
+	Parameter MAIN_BTF_READ_RAW_DATA_ESC_DETECTED bound to: 4'b0100 
+	Parameter MAIN_BTF_CHECK_TERMINATOR bound to: 4'b0101 
+	Parameter MAIN_BTF_EXECUTION bound to: 4'b0110 
+	Parameter MAIN_CMD_READ_BYTE_COUNT bound to: 4'b0111 
+	Parameter MAIN_CMD_READ_ASCII_STRING bound to: 4'b1000 
+	Parameter MAIN_CMD_READ_ASCII_STRING_ESC_DETECTED bound to: 4'b1001 
+	Parameter MAIN_CMD_CHECK_TERMINATOR bound to: 4'b1010 
+	Parameter MAIN_CMD_EXECUTION bound to: 4'b1011 
+	Parameter MAIN_ESC_CHAR_DETECTED bound to: 4'b1100 
+	Parameter MAIN_WRONG_FORMAT bound to: 4'b1101 
+	Parameter MAIN_IDLE_FIRST_ESC_DETECTED bound to: 4'b1110 
+	Parameter TERMINATOR_LENGTH bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'async_receiver' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/async_receiver.v:4]
+	Parameter ClkFrequency bound to: 100000000 - type: integer 
+	Parameter Baud bound to: 57600 - type: integer 
+	Parameter Baud8 bound to: 460800 - type: integer 
+	Parameter Baud8GeneratorAccWidth bound to: 16 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element RxD_data_error_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/async_receiver.v:85]
+INFO: [Synth 8-256] done synthesizing module 'async_receiver' (2#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/async_receiver.v:4]
+WARNING: [Synth 8-350] instance 'RXUSB' of module 'async_receiver' requires 6 connections, but only 4 given [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:68]
+INFO: [Synth 8-638] synthesizing module 'ascii2hex' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/ascii2hex.v:21]
+INFO: [Synth 8-256] done synthesizing module 'ascii2hex' (3#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/ascii2hex.v:21]
+INFO: [Synth 8-226] default block is never used [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:265]
+INFO: [Synth 8-256] done synthesizing module 'data_receiver' (4#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:24]
+WARNING: [Synth 8-350] instance 'receiver' of module 'data_receiver' requires 18 connections, but only 10 given [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:114]
+INFO: [Synth 8-638] synthesizing module 'data_sender' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:22]
+	Parameter BaudRate bound to: 57600 - type: integer 
+	Parameter ClkFreq bound to: 100000000 - type: integer 
+	Parameter TX_BUFFER1_BYTES bound to: 4'b1111 
+	Parameter TX_BUFFER1_WIDTH bound to: 120 - type: integer 
+	Parameter TX_BUFFER1_LENGTH_WIDTH bound to: 4 - type: integer 
+	Parameter TX_BUFFER2_BYTES bound to: 9'b100101100 
+	Parameter TX_BUFFER2_WIDTH bound to: 2400 - type: integer 
+	Parameter TX_BUFFER2_LENGTH_WIDTH bound to: 9 - type: integer 
+	Parameter TX_WAVEFORM_BUFFER_BYTES bound to: 8'b10000000 
+	Parameter TX_WAVEFORM_BTF_HEADER bound to: #280 - type: string 
+	Parameter TX_WAVEFORM_BUFFER_WIDTH bound to: 1024 - type: integer 
+	Parameter TX_WAVEFORM_BUFFER_LENGTH_WIDTH bound to: 8 - type: integer 
+	Parameter TERMINATOR_LENGTH bound to: 2 - type: integer 
+	Parameter MAIN_FIFO_INITIALIZE bound to: 0 - type: integer 
+	Parameter MAIN_FIFO_INITIALIZE_WAIT bound to: 1 - type: integer 
+	Parameter MAIN_IDLE bound to: 4 - type: integer 
+	Parameter MAIN_ESC_CHAR_SEND bound to: 5 - type: integer 
+	Parameter MAIN_SEND_FINISH bound to: 6 - type: integer 
+	Parameter MAIN_BUFFER1_SEND bound to: 8 - type: integer 
+	Parameter TX_FULL_BUFFER1_WIDTH bound to: 136 - type: integer 
+	Parameter MAIN_BUFFER2_SEND bound to: 9 - type: integer 
+	Parameter TX_FULL_BUFFER2_WIDTH bound to: 2440 - type: integer 
+	Parameter MAIN_WAVEFORM_BUFFER_SEND bound to: 10 - type: integer 
+	Parameter TX_FULL_WAVEFORM_BUFFER_WIDTH bound to: 1056 - type: integer 
+	Parameter MAIN_SEND_TERMINATOR bound to: 16 - type: integer 
+	Parameter MAIN_ESC_DETECTED bound to: 17 - type: integer 
+	Parameter FIFO_RESET_WAIT_COUNTER_WIDTH bound to: 4 - type: integer 
+	Parameter FIFO_RESET_WAIT_INTERVAL bound to: 15 - type: integer 
+	Parameter TX_IDLE bound to: 4'b0000 
+	Parameter TX_WAIT1 bound to: 4'b0001 
+	Parameter TX_WAIT2 bound to: 4'b0010 
+INFO: [Synth 8-638] synthesizing module 'hex2ascii' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/hex2ascii.v:21]
+INFO: [Synth 8-256] done synthesizing module 'hex2ascii' (5#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/hex2ascii.v:21]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_0' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.runs/synth_1/.Xil/Vivado-7464-QC109-3/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'fifo_generator_0' (6#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.runs/synth_1/.Xil/Vivado-7464-QC109-3/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'async_transmitter' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/async_transmitter.v:6]
+	Parameter ClkFrequency bound to: 100000000 - type: integer 
+	Parameter Baud bound to: 57600 - type: integer 
+	Parameter RegisterInputData bound to: 1 - type: integer 
+	Parameter BaudGeneratorAccWidth bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'async_transmitter' (7#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/async_transmitter.v:6]
+INFO: [Synth 8-256] done synthesizing module 'data_sender' (8#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:22]
+WARNING: [Synth 8-350] instance 'sender' of module 'data_sender' requires 19 connections, but only 14 given [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+INFO: [Synth 8-638] synthesizing module 'led_intensity_adjust' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/led_intensity_adjust.v:23]
+INFO: [Synth 8-256] done synthesizing module 'led_intensity_adjust' (9#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/led_intensity_adjust.v:23]
+INFO: [Synth 8-638] synthesizing module 'ADC8698' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/ADC8698.v:23]
+	Parameter STANDBY bound to: 0 - type: integer 
+	Parameter WRITE_ADC bound to: 1 - type: integer 
+	Parameter READ_ADC bound to: 2 - type: integer 
+	Parameter READ_ADC_AUX bound to: 3 - type: integer 
+	Parameter END_OF_CYCLE bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ADC8698' (10#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/ADC8698.v:23]
+INFO: [Synth 8-638] synthesizing module 'COMP_Control' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/COMP_Control.v:23]
+	Parameter STANDBY bound to: 0 - type: integer 
+	Parameter CAL1 bound to: 1 - type: integer 
+	Parameter CAL2 bound to: 2 - type: integer 
+	Parameter RST bound to: 3 - type: integer 
+	Parameter END_OF_CYCLE bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'COMP_Control' (11#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/COMP_Control.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:906]
+WARNING: [Synth 8-6014] Unused sequential element sample_cnt_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:403]
+WARNING: [Synth 8-6014] Unused sequential element sample_clk_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:411]
+WARNING: [Synth 8-6014] Unused sequential element BTF_capture_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:637]
+WARNING: [Synth 8-6014] Unused sequential element BTF_read_count_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:642]
+WARNING: [Synth 8-6014] Unused sequential element BTN0Delay_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:1075]
+WARNING: [Synth 8-6014] Unused sequential element loBound_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:819]
+WARNING: [Synth 8-3848] Net ADC_sdo in module/entity main_without_capture_waveform_data does not have driver. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:332]
+WARNING: [Synth 8-3848] Net ja_2 in module/entity main_without_capture_waveform_data does not have driver. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:48]
+WARNING: [Synth 8-3848] Net ja_3 in module/entity main_without_capture_waveform_data does not have driver. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:49]
+WARNING: [Synth 8-3848] Net ja_6 in module/entity main_without_capture_waveform_data does not have driver. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:50]
+WARNING: [Synth 8-3848] Net ja_7 in module/entity main_without_capture_waveform_data does not have driver. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:51]
+WARNING: [Synth 8-3848] Net monitoring_32bits in module/entity main_without_capture_waveform_data does not have driver. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:168]
+INFO: [Synth 8-256] done synthesizing module 'main_without_capture_waveform_data' (12#1) [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:33]
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d5 driven by constant 0
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d4 driven by constant 0
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d3 driven by constant 0
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d2 driven by constant 0
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d1 driven by constant 0
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d0 driven by constant 0
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port ja_2
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port ja_3
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port ja_6
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port ja_7
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port BTN0
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port BTN1
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port BTN2
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_0
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_1
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_2
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_3
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_4
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_5
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_6
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_7
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 449.031 ; gain = 186.426
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[1] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[2] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[3] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[4] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[5] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[6] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[7] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[8] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[9] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[10] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[11] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[12] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[13] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[14] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[15] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[16] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[17] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[18] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[19] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[20] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[21] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[22] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[23] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[24] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[25] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[26] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[27] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[28] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[29] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[30] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[31] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[32] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[33] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[34] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[35] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[36] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[37] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[38] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[39] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[40] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[41] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[42] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[43] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[44] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[45] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[46] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[47] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[48] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[49] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[50] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[51] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[52] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[53] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[54] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[55] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[56] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[57] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[58] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[59] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[60] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[61] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[62] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[63] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[64] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[65] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[66] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[67] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[68] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[69] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[70] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[71] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[72] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[73] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[74] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[75] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[76] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[77] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[78] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[79] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[80] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[81] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[82] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[83] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[84] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[85] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[86] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[87] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[88] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[89] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[90] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[91] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[92] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[93] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[94] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[95] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[96] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[97] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[98] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[99] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+WARNING: [Synth 8-3295] tying undriven pin sender:TX_waveform_buffer[100] to constant 0 [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:170]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 449.031 ; gain = 186.426
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.runs/synth_1/.Xil/Vivado-7464-QC109-3/dcp5/fifo_generator_0_in_context.xdc] for cell 'sender/transmitter_FIFO'
+Finished Parsing XDC File [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.runs/synth_1/.Xil/Vivado-7464-QC109-3/dcp5/fifo_generator_0_in_context.xdc] for cell 'sender/transmitter_FIFO'
+Parsing XDC File [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[10]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:253]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[11]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:254]
+WARNING: [Vivado 12-507] No nets matched 'cwd/rd_data_count[0]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:255]
+WARNING: [Vivado 12-507] No nets matched 'cwd/rd_data_count[1]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:256]
+WARNING: [Vivado 12-507] No nets matched 'cwd/rd_data_count[2]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:257]
+WARNING: [Vivado 12-507] No nets matched 'cwd/rd_data_count[3]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:258]
+WARNING: [Vivado 12-507] No nets matched 'cwd/rd_data_count[4]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:259]
+WARNING: [Vivado 12-507] No nets matched 'cwd/rd_data_count[5]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:260]
+WARNING: [Vivado 12-507] No nets matched 'cwd/rd_data_count[6]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:261]
+WARNING: [Vivado 12-507] No nets matched 'cwd/rd_data_count[7]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:262]
+WARNING: [Vivado 12-507] No nets matched 'cwd/armed'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:263]
+WARNING: [Vivado 12-507] No nets matched 'cwd/main_state[0]_i_1_n_0'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:264]
+WARNING: [Vivado 12-507] No nets matched 'cwd/main_state[1]_i_1_n_0'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:265]
+WARNING: [Vivado 12-507] No nets matched 'cwd/main_state[2]_i_1_n_0'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:266]
+WARNING: [Vivado 12-507] No nets matched 'cwd/main_state_copy[0]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:267]
+WARNING: [Vivado 12-507] No nets matched 'cwd/main_state_copy[1]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:268]
+WARNING: [Vivado 12-507] No nets matched 'cwd/main_state_copy[2]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:269]
+WARNING: [Vivado 12-507] No nets matched 'cwd/esc_char[0]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:270]
+WARNING: [Vivado 12-507] No nets matched 'cwd/esc_char[1]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:271]
+WARNING: [Vivado 12-507] No nets matched 'cwd/esc_char[2]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:272]
+WARNING: [Vivado 12-507] No nets matched 'cwd/esc_char[3]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:273]
+WARNING: [Vivado 12-507] No nets matched 'cwd/esc_char[4]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:274]
+WARNING: [Vivado 12-507] No nets matched 'cwd/esc_char[5]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:275]
+WARNING: [Vivado 12-507] No nets matched 'cwd/esc_char[6]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:276]
+WARNING: [Vivado 12-507] No nets matched 'cwd/esc_char[7]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:277]
+WARNING: [Vivado 12-507] No nets matched 'cwd/esc_char_detected'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:278]
+WARNING: [Vivado 12-507] No nets matched 'cwd/fifo_almost_full'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:279]
+WARNING: [Vivado 12-507] No nets matched 'cwd/fifo_full'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:280]
+WARNING: [Vivado 12-507] No nets matched 'cwd/fifo_empty'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:281]
+WARNING: [Vivado 12-507] No nets matched 'cwd/pattern_matched'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:282]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[0]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:283]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[10]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:284]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[11]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:285]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[12]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:286]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[13]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:287]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[14]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:288]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[15]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:289]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[1]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:290]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[2]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:291]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[3]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:292]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[4]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:293]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[5]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:294]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[6]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:295]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[7]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:296]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[8]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:297]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform[9]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:298]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform_fifo/rd_data_count[0]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:299]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform_fifo/rd_data_count[1]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:300]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform_fifo/rd_data_count[2]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:301]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform_fifo/rd_data_count[3]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:302]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform_fifo/rd_data_count[4]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:303]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform_fifo/rd_data_count[5]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:304]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform_fifo/rd_data_count[6]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:305]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform_fifo/rd_data_count[7]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:306]
+WARNING: [Vivado 12-507] No nets matched 'cwd/triggered'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:307]
+WARNING: [Vivado 12-507] No nets matched 'cwd/arm_signal'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:308]
+WARNING: [Vivado 12-507] No nets matched 'cwd/CLK100MHZ'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:309]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[6]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:310]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[3]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:311]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[10]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:312]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[13]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:313]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[0]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:314]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[8]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:315]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[1]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:316]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[2]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:317]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[4]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:318]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[5]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:319]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[7]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:320]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[9]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:321]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[11]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:322]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[12]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:323]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[14]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:324]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_mask[15]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:325]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[3]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:326]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[12]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:327]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[8]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:328]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[6]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:329]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[15]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:330]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[0]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:331]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[4]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:332]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[2]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:333]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[1]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:334]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[5]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:335]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[11]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:336]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[7]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:337]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[9]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:338]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[10]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:339]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[13]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:340]
+WARNING: [Vivado 12-507] No nets matched 'cwd/trigger_pattern[14]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:341]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[0]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:343]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[9]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:344]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[1]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:345]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[5]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:346]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[7]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:347]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[3]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:348]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[2]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:349]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[4]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:350]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[6]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:351]
+WARNING: [Vivado 12-507] No nets matched 'cwd/points_to_capture0[8]'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:352]
+WARNING: [Vivado 12-507] No nets matched 'cwd/waveform_fifo/rd_en'. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:353]
+INFO: [Common 17-14] Message 'Vivado 12-507' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc:353]
+Finished Parsing XDC File [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/main_without_capture_waveform_data_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/constrs_1/imports/Arty_S7/Arty-S7-50-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_without_capture_waveform_data_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_without_capture_waveform_data_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 866.031 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 866.031 ; gain = 603.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 866.031 ; gain = 603.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for sender/transmitter_FIFO. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 866.031 ; gain = 603.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'async_receiver'
+INFO: [Synth 8-5544] ROM "RxD_bit_inv" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RxD_bit_inv" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bit_spacing" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element gap_count_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/async_receiver.v:89]
+INFO: [Synth 8-802] inferred FSM for state register 'escape_state_reg' in module 'data_receiver'
+INFO: [Synth 8-802] inferred FSM for state register 'main_state_reg' in module 'data_receiver'
+INFO: [Synth 8-5546] ROM "esc_char_detected" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "escape_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "main_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "TERMINATOR_CURRENT_CHAR_POINTER" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "TERMINATOR_CURRENT_CHAR_POINTER" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "debug1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "debug3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "debug2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wrong_format" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "main_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "main_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "main_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'async_transmitter'
+INFO: [Synth 8-802] inferred FSM for state register 'main_state_reg' in module 'data_sender'
+INFO: [Synth 8-802] inferred FSM for state register 'transmitter_state_reg' in module 'data_sender'
+INFO: [Synth 8-5544] ROM "FIFO_wr_en" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIFO_wr_en" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "main_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIFO_reset_wait_counter" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "TX_full_buffer1_length" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "TX_full_buffer1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "reset_FIFO" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "main_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "main_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIFO_rd_en" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "TxD_start" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/led_intensity_adjust.v:47]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ADC8698'
+INFO: [Synth 8-5544] ROM "busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cs_bar" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sdi" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "result" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element difference_buf2_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/COMP_Control.v:76]
+WARNING: [Synth 8-6014] Unused sequential element difference_buf_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/COMP_Control.v:75]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'COMP_Control'
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cs_bar" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sdi" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-3936] Found unconnected internal register 'user_DAC_buffer_reg' and it is trimmed from '32' to '24' bits. [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:719]
+INFO: [Synth 8-5544] ROM "ADC_clock" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "CLK500HZ" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "TX_buffer1_ready" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "op_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "op_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ldac_bar" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "wait_flag" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ADC_clock" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "CLK500HZ" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "TX_buffer1_ready" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "op_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "op_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ldac_bar" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "wait_flag" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "con_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "con_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "TX_buffer1_length" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "op_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "op_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DAC_buffer" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0000 |                             0000
+                 iSTATE0 |                             0001 |                             1000
+                 iSTATE1 |                             0010 |                             1001
+                 iSTATE2 |                             0011 |                             1010
+                 iSTATE3 |                             0100 |                             1011
+                 iSTATE4 |                             0101 |                             1100
+                 iSTATE5 |                             0110 |                             1101
+                 iSTATE6 |                             0111 |                             1110
+                 iSTATE7 |                             1000 |                             1111
+                 iSTATE8 |                             1001 |                             0001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'async_receiver'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                ESC_IDLE |                              000 |                             0000
+              ESC_DETECT |                              001 |                             0001
+             ESC_C_FOUND |                              010 |                             0010
+             ESC_R_FOUND |                              011 |                             0011
+             ESC_A_FOUND |                              100 |                             0101
+             ESC_W_FOUND |                              101 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'escape_state_reg' using encoding 'sequential' in module 'data_receiver'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+  MAIN_ESC_CHAR_DETECTED |                             0000 |                             1100
+               MAIN_IDLE |                             0001 |                             0000
+MAIN_BTF_READ_NUM_DIGITS |                             0010 |                             0001
+MAIN_BTF_READ_BYTE_COUNT |                             0011 |                             0010
+  MAIN_BTF_READ_RAW_DATA |                             0100 |                             0011
+MAIN_BTF_READ_RAW_DATA_ESC_DETECTED |                             0101 |                             0100
+MAIN_BTF_CHECK_TERMINATOR |                             0110 |                             0101
+      MAIN_BTF_EXECUTION |                             0111 |                             0110
+MAIN_CMD_READ_BYTE_COUNT |                             1000 |                             0111
+MAIN_CMD_READ_ASCII_STRING |                             1001 |                             1000
+MAIN_CMD_READ_ASCII_STRING_ESC_DETECTED |                             1010 |                             1001
+MAIN_CMD_CHECK_TERMINATOR |                             1011 |                             1010
+      MAIN_CMD_EXECUTION |                             1100 |                             1011
+MAIN_IDLE_FIRST_ESC_DETECTED |                             1101 |                             1110
+       MAIN_WRONG_FORMAT |                             1110 |                             1101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'main_state_reg' using encoding 'sequential' in module 'data_receiver'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0000 |                             0000
+                 iSTATE0 |                             0001 |                             0001
+                 iSTATE1 |                             0010 |                             0100
+                 iSTATE2 |                             0011 |                             1000
+                 iSTATE3 |                             0100 |                             1001
+                 iSTATE4 |                             0101 |                             1010
+                 iSTATE5 |                             0110 |                             1011
+                 iSTATE6 |                             0111 |                             1100
+                 iSTATE7 |                             1000 |                             1101
+                 iSTATE8 |                             1001 |                             1110
+                 iSTATE9 |                             1010 |                             1111
+                iSTATE10 |                             1011 |                             0010
+                iSTATE11 |                             1100 |                             0011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'async_transmitter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+    MAIN_FIFO_INITIALIZE |                       0000000001 |                           000000
+MAIN_FIFO_INITIALIZE_WAIT |                       0000000010 |                           000001
+       MAIN_ESC_DETECTED |                       0000000100 |                           010001
+      MAIN_ESC_CHAR_SEND |                       0000001000 |                           000101
+        MAIN_SEND_FINISH |                       0000010000 |                           000110
+               MAIN_IDLE |                       0000100000 |                           000100
+       MAIN_BUFFER1_SEND |                       0001000000 |                           001000
+       MAIN_BUFFER2_SEND |                       0010000000 |                           001001
+MAIN_WAVEFORM_BUFFER_SEND |                       0100000000 |                           001010
+    MAIN_SEND_TERMINATOR |                       1000000000 |                           010000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'main_state_reg' using encoding 'one-hot' in module 'data_sender'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 TX_IDLE |                               00 |                             0000
+                TX_WAIT1 |                               01 |                             0001
+                TX_WAIT2 |                               10 |                             0010
+                  iSTATE |                               11 |                             1111
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'transmitter_state_reg' using encoding 'sequential' in module 'data_sender'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 STANDBY |                               00 |                              000
+               WRITE_ADC |                               01 |                              001
+                READ_ADC |                               10 |                              010
+            END_OF_CYCLE |                               11 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ADC8698'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 STANDBY |                             0001 |                              000
+                    CAL1 |                             0010 |                              001
+                    CAL2 |                             0100 |                              010
+            END_OF_CYCLE |                             1000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'COMP_Control'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:38 . Memory (MB): peak = 866.031 ; gain = 603.426
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------------------------+------------+----------+
+|      |RTL Partition                           |Replication |Instances |
++------+----------------------------------------+------------+----------+
+|1     |main_without_capture_waveform_data__GB0 |           1|     50888|
+|2     |main_without_capture_waveform_data__GB1 |           1|     31213|
+|3     |main_without_capture_waveform_data__GB2 |           1|     21302|
++------+----------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3538] Detected potentially large (wide) register TX_full_buffer2_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:244]
+INFO: [Synth 8-3538] Detected potentially large (wide) register TX_full_waveform_buffer_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:252]
+INFO: [Synth 8-3538] Detected potentially large (wide) register FIFO_buffer_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:918]
+INFO: [Synth 8-3538] Detected potentially large (wide) register load_large_data_buffer_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:918]
+INFO: [Synth 8-3538] Detected potentially large (wide) register TX_buffer2_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:181]
+INFO: [Synth 8-3538] Detected potentially large (wide) register BTF_RXBuffer_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:349]
+INFO: [Synth 8-3538] Detected potentially large (wide) register BTF_Buffer_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:384]
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input     48 Bit       Adders := 1     
+	   3 Input     21 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 3     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 10    
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 7     
+	   2 Input      2 Bit       Adders := 3     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	             2440 Bit    Registers := 1     
+	             2400 Bit    Registers := 3     
+	             2048 Bit    Registers := 2     
+	             1056 Bit    Registers := 1     
+	              136 Bit    Registers := 1     
+	              120 Bit    Registers := 3     
+	               48 Bit    Registers := 1     
+	               34 Bit    Registers := 1     
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 9     
+	               21 Bit    Registers := 4     
+	               18 Bit    Registers := 4     
+	               17 Bit    Registers := 3     
+	               16 Bit    Registers := 8     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 5     
+	                8 Bit    Registers := 10    
+	                6 Bit    Registers := 11    
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 8     
+	                3 Bit    Registers := 10    
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 82    
++---Muxes : 
+	   2 Input   2440 Bit        Muxes := 3     
+	   3 Input   2440 Bit        Muxes := 1     
+	  10 Input   2440 Bit        Muxes := 2     
+	   2 Input   2400 Bit        Muxes := 3     
+	   6 Input   2400 Bit        Muxes := 1     
+	   8 Input   2400 Bit        Muxes := 1     
+	  15 Input   2048 Bit        Muxes := 1     
+	   2 Input   2048 Bit        Muxes := 1     
+	   2 Input   1056 Bit        Muxes := 4     
+	   3 Input   1056 Bit        Muxes := 1     
+	  10 Input   1056 Bit        Muxes := 2     
+	   2 Input    136 Bit        Muxes := 3     
+	   3 Input    136 Bit        Muxes := 1     
+	  10 Input    136 Bit        Muxes := 2     
+	   2 Input    120 Bit        Muxes := 7     
+	   6 Input    120 Bit        Muxes := 2     
+	  15 Input    120 Bit        Muxes := 1     
+	   2 Input    104 Bit        Muxes := 19    
+	   2 Input     40 Bit        Muxes := 1     
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     24 Bit        Muxes := 8     
+	   8 Input     24 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 4     
+	   2 Input     18 Bit        Muxes := 19    
+	   6 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 50    
+	   6 Input     16 Bit        Muxes := 3     
+	  10 Input     10 Bit        Muxes := 1     
+	  15 Input     10 Bit        Muxes := 1     
+	  10 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	  15 Input      9 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 15    
+	  10 Input      8 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 10    
+	   2 Input      5 Bit        Muxes := 2     
+	  10 Input      5 Bit        Muxes := 1     
+	  11 Input      5 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 9     
+	  10 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+	  11 Input      4 Bit        Muxes := 1     
+	  15 Input      4 Bit        Muxes := 5     
+	  31 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 8     
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	  10 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+	  13 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 79    
+	  10 Input      1 Bit        Muxes := 15    
+	   4 Input      1 Bit        Muxes := 52    
+	   6 Input      1 Bit        Muxes := 28    
+	   8 Input      1 Bit        Muxes := 16    
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3538] Detected potentially large (wide) register TX_full_buffer2_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:244]
+INFO: [Synth 8-3538] Detected potentially large (wide) register TX_full_waveform_buffer_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_sender_v1_01.sv:252]
+INFO: [Synth 8-3538] Detected potentially large (wide) register FIFO_buffer_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:918]
+INFO: [Synth 8-3538] Detected potentially large (wide) register load_large_data_buffer_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:918]
+INFO: [Synth 8-3538] Detected potentially large (wide) register TX_buffer2_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:181]
+INFO: [Synth 8-3538] Detected potentially large (wide) register BTF_RXBuffer_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:349]
+INFO: [Synth 8-3538] Detected potentially large (wide) register BTF_Buffer_reg [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/data_receiver_v1_00.v:384]
+Hierarchical RTL Component report 
+Module main_without_capture_waveform_data 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	             2400 Bit    Registers := 3     
+	              120 Bit    Registers := 1     
+	               34 Bit    Registers := 1     
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 1     
+	               18 Bit    Registers := 3     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 5     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 27    
++---Muxes : 
+	   2 Input   2400 Bit        Muxes := 3     
+	   6 Input   2400 Bit        Muxes := 1     
+	   8 Input   2400 Bit        Muxes := 1     
+	   2 Input    120 Bit        Muxes := 6     
+	   6 Input    120 Bit        Muxes := 2     
+	   2 Input    104 Bit        Muxes := 19    
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 4     
+	   8 Input     24 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 4     
+	   2 Input     18 Bit        Muxes := 19    
+	   6 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 50    
+	   6 Input     16 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 11    
+	   6 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 42    
+	   6 Input      1 Bit        Muxes := 23    
+	   8 Input      1 Bit        Muxes := 16    
+Module hex2ascii__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+Module hex2ascii__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+Module hex2ascii__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+Module hex2ascii 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+Module async_transmitter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  13 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module data_sender 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	             2440 Bit    Registers := 1     
+	             1056 Bit    Registers := 1     
+	              136 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input   2440 Bit        Muxes := 3     
+	   3 Input   2440 Bit        Muxes := 1     
+	  10 Input   2440 Bit        Muxes := 2     
+	   2 Input   1056 Bit        Muxes := 4     
+	   3 Input   1056 Bit        Muxes := 1     
+	  10 Input   1056 Bit        Muxes := 2     
+	   2 Input    136 Bit        Muxes := 3     
+	   3 Input    136 Bit        Muxes := 1     
+	  10 Input    136 Bit        Muxes := 2     
+	   2 Input     40 Bit        Muxes := 1     
+	  10 Input     10 Bit        Muxes := 1     
+	  15 Input     10 Bit        Muxes := 1     
+	  10 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	  10 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  10 Input      5 Bit        Muxes := 1     
+	  11 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	  10 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	  10 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	  10 Input      1 Bit        Muxes := 14    
+	   4 Input      1 Bit        Muxes := 5     
+Module led_intensity_adjust 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
+Module ADC8698 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+Module COMP_Control 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input     48 Bit       Adders := 1     
+	   3 Input     21 Bit       Adders := 1     
++---Registers : 
+	               48 Bit    Registers := 1     
+	               21 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 1     
+Module DAC8734__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module DAC8734__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module DAC8734__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module DAC8734__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module DAC8734__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module DAC8734__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module DAC8734__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module DAC8734 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input     24 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+Module async_receiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  10 Input      4 Bit        Muxes := 1     
+	  11 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	  10 Input      1 Bit        Muxes := 1     
+Module ascii2hex 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+Module data_receiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	             2048 Bit    Registers := 2     
+	              120 Bit    Registers := 2     
+	               16 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	  15 Input   2048 Bit        Muxes := 1     
+	   2 Input   2048 Bit        Muxes := 1     
+	  15 Input    120 Bit        Muxes := 1     
+	   2 Input    120 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	  15 Input      9 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	  15 Input      4 Bit        Muxes := 5     
+	  31 Input      4 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 18    
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 5     
+	  15 Input      1 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'sdo_buf_reg[17:0]' into 'sdo_buf_reg[17:0]' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:379]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[2].dac/cs_bar_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:49]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[2].dac/data_to_DAC_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:56]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[2].dac/sdi_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:66]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[3].dac/cs_bar_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:49]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[3].dac/data_to_DAC_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:56]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[3].dac/sdi_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:66]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[4].dac/cs_bar_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:49]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[4].dac/data_to_DAC_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:56]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[4].dac/sdi_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:66]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[5].dac/cs_bar_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:49]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[5].dac/data_to_DAC_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:56]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[5].dac/sdi_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:66]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[6].dac/cs_bar_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:49]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[6].dac/data_to_DAC_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:56]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[6].dac/sdi_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:66]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[7].dac/cs_bar_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:49]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[7].dac/data_to_DAC_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:56]
+WARNING: [Synth 8-6014] Unused sequential element genblk1[7].dac/sdi_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/DAC8734.v:66]
+WARNING: [Synth 8-6014] Unused sequential element sdo_buf_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:379]
+INFO: [Synth 8-5544] ROM "genblk1[0].dac/cs_bar" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[0].dac/sdi" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[0].dac/busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[1].dac/cs_bar" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[1].dac/sdi" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[1].dac/busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[2].dac/busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[3].dac/busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[4].dac/busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[5].dac/busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[6].dac/busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "genblk1[7].dac/busy" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ADC_clock" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "TX_buffer1_ready" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "op_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ldac_bar" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "op_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CLK500HZ" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "TX_full_buffer1_length" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "TX_full_buffer1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "main_state" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/led_intensity_adjust.v:47]
+INFO: [Synth 8-4471] merging register 'difference_buf_reg[20:0]' into 'difference_buf_reg[20:0]' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/COMP_Control.v:75]
+WARNING: [Synth 8-6014] Unused sequential element difference_buf_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/COMP_Control.v:75]
+WARNING: [Synth 8-6014] Unused sequential element difference_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/COMP_Control.v:74]
+WARNING: [Synth 8-6014] Unused sequential element difference_buf2_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/COMP_Control.v:76]
+WARNING: [Synth 8-6014] Unused sequential element difference_buf_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/COMP_Control.v:75]
+DSP Report: Generating DSP COMP_output_buf3, operation Mode is: (D-A)*B.
+DSP Report: register difference_reg is absorbed into DSP COMP_output_buf3.
+DSP Report: operator difference0 is absorbed into DSP COMP_output_buf3.
+DSP Report: operator COMP_output_buf3 is absorbed into DSP COMP_output_buf3.
+DSP Report: Generating DSP COMP_output_buf2, operation Mode is: A2*B.
+DSP Report: register difference_buf_reg is absorbed into DSP COMP_output_buf2.
+DSP Report: operator COMP_output_buf2 is absorbed into DSP COMP_output_buf2.
+DSP Report: Generating DSP COMP_output_buf1, operation Mode is: A''*B.
+DSP Report: register difference_buf_reg is absorbed into DSP COMP_output_buf1.
+DSP Report: register difference_buf2_reg is absorbed into DSP COMP_output_buf1.
+DSP Report: operator COMP_output_buf1 is absorbed into DSP COMP_output_buf1.
+INFO: [Synth 8-4471] merging register 'sdo_buf_reg[17:0]' into 'sdo_buf_reg[17:0]' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:379]
+WARNING: [Synth 8-6014] Unused sequential element sdo_buf_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:379]
+INFO: [Synth 8-5546] ROM "TX_buffer1_ready" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ldac_bar" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "op_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "op_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CLK500HZ" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP multiply_buf1, operation Mode is: A2*(B:0x83).
+DSP Report: register sdo_buf_reg is absorbed into DSP multiply_buf1.
+DSP Report: operator multiply_buf1 is absorbed into DSP multiply_buf1.
+WARNING: [Synth 8-6014] Unused sequential element gap_count_reg was removed.  [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.srcs/sources_1/new/async_receiver.v:89]
+INFO: [Synth 8-5546] ROM "esc_char_detected" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "escape_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "main_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "TERMINATOR_CURRENT_CHAR_POINTER" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d5 driven by constant 0
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d4 driven by constant 0
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d3 driven by constant 0
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d2 driven by constant 0
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d1 driven by constant 0
+WARNING: [Synth 8-3917] design main_without_capture_waveform_data has port d0 driven by constant 0
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port ja_2
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port ja_3
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port ja_6
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port ja_7
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port BTN0
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port BTN1
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port BTN2
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_0
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_1
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_2
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_3
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_4
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_5
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_6
+WARNING: [Synth 8-3331] design main_without_capture_waveform_data has unconnected port jb_7
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1056] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1055] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1054] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1053] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1052] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1051] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1050] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1049] )
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[136]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[135]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[135]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[134]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[134]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[133]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[133]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[132]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[132]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[131]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[131]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[130]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[130]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[129]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_buffer1_reg[129] )
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[96]' (FDE) to 'i_0/TX_buffer1_reg[95]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[95]' (FDE) to 'i_0/TX_buffer1_reg[94]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[94]' (FDE) to 'i_0/TX_buffer1_reg[92]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[93]' (FDE) to 'i_0/TX_buffer1_reg[91]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[92]' (FDE) to 'i_0/TX_buffer1_reg[89]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[91]' (FDE) to 'i_0/TX_buffer1_reg[90]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/\TX_buffer1_reg[90] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\TX_buffer1_reg[89] )
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[88]' (FDE) to 'i_0/TX_buffer1_reg[87]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[87]' (FDE) to 'i_0/TX_buffer1_reg[85]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[86]' (FDE) to 'i_0/TX_buffer1_reg[82]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[85]' (FDE) to 'i_0/TX_buffer1_reg[81]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[84]' (FDE) to 'i_0/TX_buffer1_reg[83]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/\TX_buffer1_reg[82] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\TX_buffer1_reg[81] )
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[78]' (FDE) to 'i_0/TX_buffer1_reg[74]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[76]' (FDE) to 'i_0/TX_buffer1_reg[73]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/\TX_buffer1_reg[74] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\TX_buffer1_reg[73] )
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[72]' (FDE) to 'i_0/TX_buffer1_reg[47]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[71]' (FDE) to 'i_0/TX_buffer1_reg[51]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[70]' (FDE) to 'i_0/TX_buffer1_reg[64]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[69]' (FDE) to 'i_0/TX_buffer1_reg[62]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[68]' (FDE) to 'i_0/TX_buffer1_reg[60]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[65]' (FDE) to 'i_0/TX_buffer1_reg[61]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[64]' (FDE) to 'i_0/TX_buffer1_reg[58]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[61]' (FDE) to 'i_0/TX_buffer1_reg[57]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[60]' (FDE) to 'i_0/TX_buffer1_reg[52]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[59]' (FDE) to 'i_0/TX_buffer1_reg[54]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[57]' (FDE) to 'i_0/TX_buffer1_reg[49]'
+INFO: [Synth 8-3886] merging instance 'i_0/comp/difference_reg[18]' (FDRE) to 'i_0/comp/difference_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/comp/difference_reg[19]' (FDRE) to 'i_0/comp/difference_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[55]' (FDE) to 'i_0/TX_buffer1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[54]' (FDE) to 'i_0/TX_buffer1_reg[50]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[50]' (FDE) to 'i_0/TX_buffer1_reg[43]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[49]' (FDE) to 'i_0/TX_buffer1_reg[45]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[47]' (FDE) to 'i_0/TX_buffer1_reg[42]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer1_reg[45]' (FDE) to 'i_0/TX_buffer1_reg[41]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/\TX_buffer1_reg[43] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\TX_buffer1_reg[41] )
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer2_length_reg[8]' (FDE) to 'i_0/TX_buffer2_length_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer2_length_reg[7]' (FDE) to 'i_0/TX_buffer2_length_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer2_length_reg[5]' (FDE) to 'i_0/TX_buffer2_length_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer2_length_reg[4]' (FDE) to 'i_0/TX_buffer2_length_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer2_length_reg[3]' (FDE) to 'i_0/TX_buffer2_length_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer2_length_reg[1]' (FDE) to 'i_0/TX_buffer2_length_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/TX_buffer2_length_reg[0]' (FDE) to 'i_0/TX_buffer2_length_reg[6]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/\TX_buffer2_length_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\TX_buffer2_length_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/TX_waveform_buffer_ready_delay_reg)
+INFO: [Synth 8-3886] merging instance 'i_0/genblk1[2].dac/state_reg[0]' (FDE) to 'i_0/genblk1[2].dac/state_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/genblk1[3].dac/state_reg[0]' (FDE) to 'i_0/genblk1[3].dac/state_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/genblk1[7].dac/state_reg[0]' (FDE) to 'i_0/genblk1[7].dac/state_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/genblk1[6].dac/state_reg[0]' (FDE) to 'i_0/genblk1[6].dac/state_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/genblk1[4].dac/state_reg[0]' (FDE) to 'i_0/genblk1[4].dac/state_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/genblk1[5].dac/state_reg[0]' (FDE) to 'i_0/genblk1[5].dac/state_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/genblk1[1].dac/state_reg[1]' (FDE) to 'i_0/genblk1[1].dac/state_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/genblk1[0].dac/state_reg[1]' (FDE) to 'i_0/genblk1[0].dac/state_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1048] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1047] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1046] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1045] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1044] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1043] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1042] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1041] )
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[129]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[128]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[128]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[127]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[127]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[126]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[126]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[125]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[125]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[124]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[124]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[123]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[123]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[122]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_buffer1_reg[122]' (FDE) to 'i_0/sender/TX_full_buffer1_reg[121]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_buffer1_reg[121] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1040] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1039] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1038] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1037] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1036] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1035] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1034] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1033] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1032] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1031] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1030] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1029] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1028] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1027] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1026] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1025] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1024] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1023] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1022] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1021] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1020] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1019] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1018] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1017] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1016] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1015] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1014] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1013] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1012] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1011] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1010] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1009] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1008] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1007] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1006] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1005] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1004] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1003] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1002] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1001] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[1000] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[999] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[998] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[997] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[996] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[995] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[994] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[993] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[992] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[991] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[990] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[989] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[988] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[987] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[986] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[985] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[984] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[983] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[982] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[981] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[980] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[979] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[978] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[977] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[976] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[975] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[974] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[973] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[972] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[971] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/sender/\TX_full_waveform_buffer_reg[970] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (TX_full_buffer1_reg[121]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[1]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[2]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[6]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[9]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[10]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[14]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[16]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[17]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[18]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[22]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[23]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[24]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[25]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[26]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[29]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[30]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[31]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[32]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[33]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[34]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[35]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[36]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[37]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[38]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[39]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[40]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[41]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[42]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[43]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[44]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[45]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[46]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[47]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[48]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[49]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[50]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[51]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[52]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[53]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[54]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[55]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[56]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[57]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[58]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[59]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[60]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[61]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[62]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[63]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[64]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[65]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[66]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[67]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[68]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[69]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[70]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[71]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[72]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[73]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[74]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[75]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[76]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[77]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[78]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[79]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[80]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[81]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[82]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[83]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[84]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[85]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[86]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[87]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[88]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[89]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[90]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[91]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[92]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[93]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[94]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[95]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[96]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[97]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[98]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[99]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[100]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[101]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[102]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[103]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[104]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[105]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[106]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[107]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[108]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[109]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[110]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[111]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[112]) is unused and will be removed from module data_sender.
+WARNING: [Synth 8-3332] Sequential element (TX_full_waveform_buffer_reg[113]) is unused and will be removed from module data_sender.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_waveform_buffer_reg[28]' (FDE) to 'i_0/sender/TX_full_waveform_buffer_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_waveform_buffer_reg[27]' (FDE) to 'i_0/sender/TX_full_waveform_buffer_reg[21]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_waveform_buffer_reg[21]' (FDE) to 'i_0/sender/TX_full_waveform_buffer_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_waveform_buffer_reg[15]' (FDE) to 'i_0/sender/TX_full_waveform_buffer_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_waveform_buffer_reg[20]' (FDE) to 'i_0/sender/TX_full_waveform_buffer_reg[19]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_waveform_buffer_reg[19]' (FDE) to 'i_0/sender/TX_full_waveform_buffer_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/sender/TX_full_waveform_buffer_reg[12]' (FDE) to 'i_0/sender/TX_full_waveform_buffer_reg[11]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:20 ; elapsed = 00:02:32 . Memory (MB): peak = 866.031 ; gain = 603.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++-----------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                        | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|COMP_Control                       | (D-A)*B     | 19     | 17     | -      | 18     | 38     | 0    | 0    | -    | 0    | 1     | 0    | 0    | 
+|COMP_Control                       | A2*B        | 21     | 17     | -      | -      | 38     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|COMP_Control                       | A''*B       | 21     | 17     | -      | -      | 38     | 2    | 0    | -    | -    | -     | 0    | 0    | 
+|main_without_capture_waveform_data | A2*(B:0x83) | 18     | 8      | -      | -      | 26     | 1    | 0    | -    | -    | -     | 0    | 0    | 
++-----------------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------------------------+------------+----------+
+|      |RTL Partition                           |Replication |Instances |
++------+----------------------------------------+------------+----------+
+|1     |main_without_capture_waveform_data__GB0 |           1|     29491|
+|2     |main_without_capture_waveform_data__GB1 |           1|     12613|
+|3     |main_without_capture_waveform_data__GB2 |           1|      1621|
++------+----------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:31 ; elapsed = 00:02:43 . Memory (MB): peak = 940.648 ; gain = 678.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:40 ; elapsed = 00:02:53 . Memory (MB): peak = 983.973 ; gain = 721.367
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------------------------+------------+----------+
+|      |RTL Partition                           |Replication |Instances |
++------+----------------------------------------+------------+----------+
+|1     |main_without_capture_waveform_data__GB1 |           1|     12613|
+|2     |main_without_capture_waveform_data_GT0  |           1|     31089|
++------+----------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:50 ; elapsed = 00:03:03 . Memory (MB): peak = 983.973 ; gain = 721.367
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:54 ; elapsed = 00:03:06 . Memory (MB): peak = 983.973 ; gain = 721.367
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:54 ; elapsed = 00:03:07 . Memory (MB): peak = 983.973 ; gain = 721.367
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:56 ; elapsed = 00:03:08 . Memory (MB): peak = 983.973 ; gain = 721.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:56 ; elapsed = 00:03:08 . Memory (MB): peak = 983.973 ; gain = 721.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:59 ; elapsed = 00:03:11 . Memory (MB): peak = 983.973 ; gain = 721.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:59 ; elapsed = 00:03:11 . Memory (MB): peak = 983.973 ; gain = 721.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-----------------------------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                        | RTL Name                       | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-----------------------------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|main_without_capture_waveform_data | sender/TX_full_buffer1_reg[57] | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++-----------------------------------+--------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |fifo_generator_0 |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |fifo_generator_0 |     1|
+|2     |BUFG             |     3|
+|3     |CARRY4           |   233|
+|4     |DSP48E1          |     1|
+|5     |DSP48E1_1        |     2|
+|6     |DSP48E1_2        |     1|
+|7     |LUT1             |    32|
+|8     |LUT2             |   155|
+|9     |LUT3             |  4548|
+|10    |LUT4             |   794|
+|11    |LUT5             |   288|
+|12    |LUT6             |  4574|
+|13    |MUXF7            |    16|
+|14    |SRL16E           |     1|
+|15    |FDRE             |  9080|
+|16    |FDSE             |    30|
+|17    |IBUF             |     3|
+|18    |OBUF             |    28|
+|19    |OBUFT            |     4|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+--------------------------+---------------------+------+
+|      |Instance                  |Module               |Cells |
++------+--------------------------+---------------------+------+
+|1     |top                       |                     | 19805|
+|2     |  adc                     |ADC8698              |   120|
+|3     |  comp                    |COMP_Control         |   308|
+|4     |  \genblk1[0].dac         |DAC8734              |    75|
+|5     |  \genblk1[1].dac         |DAC8734_0            |    76|
+|6     |  \genblk1[2].dac         |DAC8734_1            |    22|
+|7     |  \genblk1[3].dac         |DAC8734_2            |    22|
+|8     |  \genblk1[4].dac         |DAC8734_3            |    22|
+|9     |  \genblk1[5].dac         |DAC8734_4            |    22|
+|10    |  \genblk1[6].dac         |DAC8734_5            |    22|
+|11    |  \genblk1[7].dac         |DAC8734_6            |    33|
+|12    |  led_intensity_modulator |led_intensity_adjust |    33|
+|13    |  receiver                |data_receiver        |  3541|
+|14    |    RXUSB                 |async_receiver       |   186|
+|15    |  sender                  |data_sender          |  7825|
+|16    |    TXUSB                 |async_transmitter    |    53|
++------+--------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:59 ; elapsed = 00:03:11 . Memory (MB): peak = 983.973 ; gain = 721.367
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1097 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:42 ; elapsed = 00:02:59 . Memory (MB): peak = 983.973 ; gain = 304.367
+Synthesis Optimization Complete : Time (s): cpu = 00:02:59 ; elapsed = 00:03:11 . Memory (MB): peak = 983.973 ; gain = 721.367
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 256 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+341 Infos, 440 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:03 ; elapsed = 00:03:16 . Memory (MB): peak = 983.973 ; gain = 729.016
+INFO: [Common 17-1381] The checkpoint 'Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3.2_16bit/verilog/v1_00.runs/synth_1/main_without_capture_waveform_data.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 983.973 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file main_without_capture_waveform_data_utilization_synth.rpt -pb main_without_capture_waveform_data_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 983.973 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 19 12:59:51 2020...

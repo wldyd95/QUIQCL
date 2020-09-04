@@ -1,0 +1,726 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 15388
+License: Customer
+
+Current time: 	Mon Aug 26 16:16:40 KST 2019
+Time zone: 	Korea Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 8 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	QC109_4
+User home directory: C:/Users/QC109_4
+User working directory: Q:/Users/swYoo/Arty S7/DAC8734/test2
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/QC109_4/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/QC109_4/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/QC109_4/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	Q:/Users/swYoo/Arty S7/DAC8734/test2/vivado.log
+Vivado journal file location: 	Q:/Users/swYoo/Arty S7/DAC8734/test2/vivado.jou
+Engine tmp dir: 	Q:/Users/swYoo/Arty S7/DAC8734/test2/.Xil/Vivado-15388-DESKTOP-MCBJ7EB
+
+GUI allocated memory:	176 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 575 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 48 MB (+47563kb) [00:00:04]
+// [Engine Memory]: 521 MB (+394807kb) [00:00:04]
+// bs (cl):  Open Project : addNotify
+// Opening Vivado Project: Q:\Users\swYoo\Arty S7\DAC8734\test2\v1_00.xpr. Version: Vivado v2017.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 60 MB (+10457kb) [00:00:06]
+// [Engine Memory]: 562 MB (+15806kb) [00:00:06]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 593 MB (+2385kb) [00:00:09]
+// Tcl Message: open_project {Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 641 MB. GUI used memory: 43 MB. Current time: 8/26/19 4:16:44 PM KST
+// [Engine Memory]: 643 MB (+21373kb) [00:00:11]
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 827.430 ; gain = 63.434 
+// Project name: v1_00; location: Q:/Users/swYoo/Arty S7/DAC8734/test2; part: xc7s50csga324-1
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 63 MB (+104kb) [00:00:23]
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // x (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+// Elapsed time: 33 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 34 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// HMemoryUtils.trashcanNow. Engine heap size: 658 MB. GUI used memory: 42 MB. Current time: 8/26/19 4:17:37 PM KST
+// Tcl Message: [Mon Aug 26 16:17:37 2019] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/synth_1/runme.log [Mon Aug 26 16:17:37 2019] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// TclEventType: RUN_FAILED
+// ah (cl): Synthesis Failed: addNotify
+// [GUI Memory]: 68 MB (+1379kb) [00:01:43]
+// [GUI Memory]: 73 MB (+1669kb) [00:01:58]
+// [Engine Memory]: 683 MB (+9018kb) [00:02:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 42 MB. Current time: 8/26/19 4:18:52 PM KST
+// Elapsed time: 76 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aQ, cl): TRUE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cl)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// u (cl): Settings: addNotify
+dismissDialog("Settings"); // u (cl)
+// [GUI Memory]: 91 MB (+15531kb) [00:02:37]
+// [GUI Memory]: 100 MB (+4460kb) [00:02:38]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv), receiver : data_receiver (data_receiver_v1_00.v)]", 2, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// [Engine Memory]: 719 MB (+1810kb) [00:02:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 735 MB. GUI used memory: 60 MB. Current time: 8/26/19 4:19:12 PM KST
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF (Q, cl)
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[Out-of-Context Module Runs]", 2, false); // i (O, cl)
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[Out-of-Context Module Runs]", 3, false); // i (O, cl)
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[Out-of-Context Module Runs]", 4, false); // i (O, cl)
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[]", 0, false); // i (O, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aF (Q, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:17:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ax (O, cl) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.3s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:17:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ax (O, cl) - Node
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:17:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0); // ax (O, cl)
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:17:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0); // ax (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Scripts Generated ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Implementation Defaults* (Vivado Implementation 2017) ; Vivado Implementation Default Reports (Vivado Implementation 2017) ; xc7s50csga324-1 ; Default settings for Implementation.", 1, "impl_1", 0, false); // ax (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:17:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ax (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:17:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ax (O, cl) - Node
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:17:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0); // ax (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:17:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, false, true); // ax (O, cl) - Double Click - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:17:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // ax (O, cl) - Node
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF (Q, cl)
+// Elapsed time: 45 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 269, 82); // n (B, cl)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_start", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_start"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_start"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_start"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_start"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_start"); // l (aP, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 159, 35); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 154, 30); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 124, 105); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 153, 121); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 83, 305); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 283, 277); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 278, 407); // cd (w, cl)
+// [GUI Memory]: 109 MB (+4163kb) [00:04:58]
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise_cnt"); // l (aP, cl)
+// Elapsed time: 56 seconds
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[, Out-of-Context Module Runs]", 1, true); // i (O, cl) - Node
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[Out-of-Context Module Runs]", 2, false); // i (O, cl)
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[Out-of-Context Module Runs]", 3, false); // i (O, cl)
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[Out-of-Context Module Runs]", 4, false); // i (O, cl)
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[Out-of-Context Module Runs]", 3, false); // i (O, cl)
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[Out-of-Context Module Runs]", 2, false); // i (O, cl)
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[, Out-of-Context Module Runs]", 1, true); // i (O, cl) - Node
+collapseTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[, Out-of-Context Module Runs]", 1); // i (O, cl)
+expandTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[, Out-of-Context Module Runs]", 1); // i (O, cl)
+// Elapsed time: 44 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "diff"); // l (aP, cl)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cl)
+// Elapsed time: 32 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "integrate", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "integrate"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "integrate"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "integrate"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "integrate"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "integrate"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "integrate"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "integrate"); // l (aP, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 74, 28); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 67, 442); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cl)
+// TclEventType: DG_GRAPH_GENERATED
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // x (cl)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+// [GUI Memory]: 117 MB (+2300kb) [00:08:00]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Aug 26 16:24:37 2019] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/synth_1/runme.log [Mon Aug 26 16:24:37 2019] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// TclEventType: RUN_FAILED
+// ah (cl): Synthesis Failed: addNotify
+// Elapsed time: 29 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aF (Q, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:24:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, true, false); // ax (O, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_VIEW_RUN_MESSAGES, "Display Messages"); // ac (ai, Popup.HeavyWeightWindow)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:24:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, true, false); // ax (O, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_VIEW_RUN_REPORTS, "Display Reports"); // ac (ai, Popup.HeavyWeightWindow)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Aug 26 16:24:42 KST 2019 ; 00:00:14 ; Vivado Synthesis Defaults (Vivado Synthesis 2017) ; Vivado Synthesis Default Reports (Vivado Synthesis 2017) ; xc7s50csga324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, true, false); // ax (O, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_VIEW_RUN_LOG, "Display Log"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 342, 63); // n (i, cl)
+typeControlKey(PAResourceItoN.LogMonitor_MONITOR, "Monitor", 'c'); // n (i, cl)
+// Elapsed time: 35 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF (Q, cl)
+selectTree(PAResourceItoN.LogPanel_LOG_NAVIGATOR, "[]", 0, false); // i (O, cl)
+// Elapsed time: 212 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+// Elapsed time: 10 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_bar"); // l (aP, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 169, 349); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+// Elapsed time: 16 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ldac_pause_count"); // l (aP, cl)
+// Elapsed time: 35 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 280, 330); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 220, 352); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 216, 332); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 217, 319); // cd (w, cl)
+// Elapsed time: 52 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 302, 357); // cd (w, cl)
+// Elapsed time: 20 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 238, 351); // cd (w, cl)
+// Elapsed time: 49 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 216, 365); // cd (w, cl)
+// Elapsed time: 17 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 229, 429); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 317, 125); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "multiply_result"); // l (aP, cl)
+// [GUI Memory]: 123 MB (+954kb) [00:19:02]
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise"); // l (aP, cl)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "noise"); // l (aP, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // x (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Aug 26 16:35:51 2019] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/synth_1/runme.log [Mon Aug 26 16:35:51 2019] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 194 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (N, cl)
+// aN (cl): Cancel Implementation: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aN)
+dismissDialog("Cancel Implementation"); // aN (cl)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (N, cl)
+// aN (cl): Cancel Implementation: addNotify
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aN)
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aN (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 233, 276); // cd (w, cl)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (am)
+// bs (cl):  Save Constraints : addNotify
+// x (cl): No Implementation Results Available: addNotify
+dismissDialog("Save Project"); // am (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // x (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Aug 26 16:39:46 2019] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/synth_1/runme.log [Mon Aug 26 16:39:46 2019] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// Elapsed time: 15 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (N, cl)
+// bs (cl):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_SYNTHESIS_Cancel Process", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 57, 253); // cd (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 119, 352); // cd (w, cl)
+// Elapsed time: 19 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 275, 383); // cd (w, cl)
+// [GUI Memory]: 131 MB (+1140kb) [00:24:32]
+// Elapsed time: 24 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 227, 310); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 292, 350); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 99, 179); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 69, 363); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// Elapsed time: 43 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 101, 362); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+// f (cl): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // x (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Aug 26 16:42:52 2019] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/synth_1/runme.log [Mon Aug 26 16:42:52 2019] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// [GUI Memory]: 138 MB (+430kb) [00:26:55]
+// TclEventType: RUN_COMPLETED
+// [Engine Memory]: 762 MB (+7329kb) [00:29:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 762 MB. GUI used memory: 72 MB. Current time: 8/26/19 4:45:52 PM KST
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 695 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bs (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bs (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cZ, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210352A6BFE2A 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,310 MB. GUI used memory: 77 MB. Current time: 8/26/19 4:54:39 PM KST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// bs (cl):  Auto Connect : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/main_without_capture_waveform_data.bit} [get_hw_devices xc7s50_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/main_without_capture_waveform_data.ltx} [get_hw_devices xc7s50_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/main_without_capture_waveform_data.ltx} [get_hw_devices xc7s50_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7s50_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 1,326 MB (+551564kb) [00:38:07]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7s50 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev [lindex [get_cfgmem_parts {s25fl128sxxxxxx0-spi-x1_x2_x4}] 0] 
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u_ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,350 MB. GUI used memory: 87 MB. Current time: 8/26/19 4:54:41 PM KST
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+dismissDialog("Auto Connect"); // bs (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7s50_0"); // ac (ai, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bA (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// HOptionPane Error: 'The file 'C:/Xilinx/Vivado/2017.3/data/xicom/cfgmem/spi_xc7s50_pullnone.bit' does not exist. Please specify a valid file name. (Invalid File Name)'
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // JButton (A, H)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // q (af, bA)
+// Elapsed time: 20 seconds
+setFileChooser("Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/main_without_capture_waveform_data.bit");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bA)
+// bs (cl):  Program Device : addNotify
+dismissDialog("Program Device"); // bA (cl)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/main_without_capture_waveform_data.ltx} [get_hw_devices xc7s50_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/main_without_capture_waveform_data.ltx} [get_hw_devices xc7s50_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/main_without_capture_waveform_data.bit} [get_hw_devices xc7s50_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: program_hw_devices [get_hw_devices xc7s50_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,359 MB. GUI used memory: 91 MB. Current time: 8/26/19 4:55:17 PM KST
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7s50 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// 'I' command handler elapsed time: 28 seconds
+dismissDialog("Program Device"); // bs (cl)
+// Elapsed time: 135 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_without_capture_waveform_data_v1_00.sv", 0); // k (j, cl)
+// Elapsed time: 18 seconds
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cl)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 168, 94); // cd (w, cl)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_UNSELECT_TYPE, "Unselect Type"); // Z (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, "Hide Flow Navigator"); // ac (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 88, 108); // cd (w, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cl)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 127, 117); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 93, 111); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 132, 236, false, false, false, true, false); // cd (w, cl) - Popup Trigger
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 54, 368); // cd (w, cl)
+// Elapsed time: 24 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 343, 276); // cd (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 90, 193); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 211, 280); // cd (w, cl)
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,384 MB. GUI used memory: 88 MB. Current time: 8/26/19 5:00:03 PM KST
+// Elapsed time: 114 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 261, 333); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 95, 349); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 360, 385); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 362, 370); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 360, 348); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 244, 392); // cd (w, cl)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 75 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 45, 309); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 39, 176, false, false, false, true, false); // cd (w, cl) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 101, 299); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 230, 388); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 444, 94); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 315, 143); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // x (cl)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 6 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Aug 26 17:03:17 2019] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/synth_1/runme.log [Mon Aug 26 17:03:17 2019] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
