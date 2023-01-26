@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Aug  6 16:47:18 2020
+# Process ID: 5576
+# Current directory: C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22344 C:\Users\hp\Desktop\QUIQCL\DDS\AD9912_DAC8734\v1_01\v1_01.xpr
+# Log file: C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01/vivado.log
+# Journal file: C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01/v1_01.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01/v1_01.runs/impl_1/main.bit} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s50_0] 0]
+create_hw_cfgmem -hw_device [get_hw_devices xc7s50_0] -mem_dev [lindex [get_cfgmem_parts {s25fl128sxxxxxx0-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01/v1_01.runs/impl_1/main.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]

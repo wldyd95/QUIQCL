@@ -1,0 +1,163 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 8624
+License: Customer
+
+Current time: 	Fri Aug 21 11:49:23 KST 2020
+Time zone: 	Korean Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 2560x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 49 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	hp
+User home directory: C:/Users/hp
+User working directory: C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/hp/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/hp/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/hp/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01/vivado.log
+Vivado journal file location: 	C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01/vivado.jou
+Engine tmp dir: 	C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01/.Xil/Vivado-8624-LAPTOP-HJ8BQ6UU
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 590 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\hp\Desktop\QUIQCL\DDS\AD9912_DAC8734\v1_01\v1_01.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01/v1_01.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 603 MB. GUI used memory: 51 MB. Current time: 8/21/20, 11:49:25 AM KST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 73 MB (+74574kb) [00:00:34]
+// [Engine Memory]: 637 MB (+516114kb) [00:00:34]
+// [GUI Memory]: 95 MB (+19189kb) [00:00:37]
+// [GUI Memory]: 103 MB (+2366kb) [00:00:42]
+// WARNING: HEventQueue.dispatchEvent() is taking  3429 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1045 ms.
+// Tcl Message: open_project C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01/v1_01.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 693 MB. GUI used memory: 59 MB. Current time: 8/21/20, 11:49:46 AM KST
+// [Engine Memory]: 693 MB (+25613kb) [00:00:45]
+// WARNING: HEventQueue.dispatchEvent() is taking  2001 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:40 ; elapsed = 00:00:23 . Memory (MB): peak = 707.824 ; gain = 95.969 
+// Project name: v1_01; location: C:/Users/hp/Desktop/QUIQCL/DDS/AD9912_DAC8734/v1_01; part: xc7s50csga324-1
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1125 ms. Increasing delay to 3000 ms.
+// [Engine Memory]: 734 MB (+6233kb) [00:00:48]
+dismissDialog("Open Project"); // by (cl)
+// a (cl): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cl)
+// [GUI Memory]: 116 MB (+8952kb) [00:03:36]
+// PAPropertyPanels.initPanels (AD9912_DAC8734_main.sv) elapsed time: 0.3s
+// Elapsed time: 162 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (AD9912_DAC8734_main.sv)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (AD9912_DAC8734_main.sv)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1234 ms.
+selectCodeEditor("AD9912_DAC8734_main.sv", 529, 254); // cl (w, cl)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (aH, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 422, 173); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 405, 269); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 390, 319); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 390, 309); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 8, 102); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 739, 421); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 52, 40); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 541, 326); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 454, 99); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 454, 99, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("AD9912_DAC8734_main.sv", 454, 99); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 456, 118); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 456, 118, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("AD9912_DAC8734_main.sv", 456, 118); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 453, 181); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 16, 137); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 562, 410); // cl (w, cl)
+// Elapsed time: 96 seconds
+selectCodeEditor("AD9912_DAC8734_main.sv", 1369, 202); // cl (w, cl)
+selectCodeEditor("AD9912_DAC8734_main.sv", 1369, 202, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("AD9912_DAC8734_main.sv", 1369, 202); // cl (w, cl)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 231ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1789 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3360 ms. Increasing delay to 10080 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2626 ms. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 52 ms. Decreasing delay to 2052 ms.
+// Elapsed time: 648 seconds
+selectCodeEditor("AD9912_DAC8734_main.sv", 449, 516); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AD9912_DAC8734_main.sv", 1); // k (j, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 744 MB. GUI used memory: 62 MB. Current time: 8/21/20, 12:19:46 PM KST
