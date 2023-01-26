@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=X:\Experiment_Scripts\Computer_Raman\RAMAN\v4_2\Libertron_FPGA_Scripts\Raman_FPGA_Controller\main.ncd
+OUTFILE=X:\Experiment_Scripts\Computer_Raman\RAMAN\v4_2\Libertron_FPGA_Scripts\Raman_FPGA_Controller\main.bit
+FAMILY=Spartan3
+PART=xc3s200-4pq208
+WORKINGDIR=X:\Experiment_Scripts\Computer_Raman\RAMAN\v4_2\Libertron_FPGA_Scripts\Raman_FPGA_Controller
+LICENSE=WebPack
+USER_INFO=211083612_0_0_232

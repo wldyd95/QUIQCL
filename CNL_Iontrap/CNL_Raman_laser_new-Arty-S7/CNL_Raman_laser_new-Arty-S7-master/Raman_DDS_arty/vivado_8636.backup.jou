@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jan 28 14:59:38 2020
+# Process ID: 8636
+# Current directory: C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18272 C:\Users\hp\Desktop\Jhe\RAMAN_new\Raman_DDS_arty\Raman_DDS_arty.xpr
+# Log file: C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/vivado.log
+# Journal file: C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.xpr
+update_compile_order -fileset sources_1

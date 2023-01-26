@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX1
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    Feb  1 18:00:01 2020    C:/Users/hp/Desktop/Jhe/RAMAN_new/Raman_DDS_arty/Raman_DDS_arty.runs/impl_1/main.bit

@@ -1,0 +1,15 @@
+MO FIFO NULL ipcore_dir/FIFO.v vlg7C/_f_i_f_o.bin 1575523710
+MO DDSControl NULL DDSControl.v vlg70/_d_d_s_control.bin 1575523710
+MO string_sender NULL string_sender.v vlg3F/string__sender.bin 1575523710
+MO send_string NULL send_string.v vlg48/send__string.bin 1442974077
+MO ADC_control NULL ADC_control.v vlg04/_a_d_c__control.bin 1465790322
+MO async_transmitter NULL async_transmitter.v vlg32/async__transmitter.bin 1575523710
+MO main NULL main.v vlg2D/main.bin 1575523710
+MO string_reader NULL string_reader.v vlg31/string__reader.bin 1575523710
+MO counter NULL counter.v vlg10/counter.bin 1442974077
+MO hex2ascii NULL hex2ascii.v vlg54/hex2ascii.bin 1445835258
+MO WriteToRegister NULL WriteToRegister.v vlg5F/_write_to_register.bin 1575523710
+MO RAM NULL ipcore_dir/RAM.v vlg14/_r_a_m.bin 1575523710
+MO ascii2hex NULL ascii2hex.v vlg0C/ascii2hex.bin 1575523710
+MO IP_FIFO NULL ipcore_dir/IP_FIFO.v vlg0C/_i_p___f_i_f_o.bin 1442974077
+MO async_receiver NULL async_receiver.v vlg3A/async__receiver.bin 1575523710

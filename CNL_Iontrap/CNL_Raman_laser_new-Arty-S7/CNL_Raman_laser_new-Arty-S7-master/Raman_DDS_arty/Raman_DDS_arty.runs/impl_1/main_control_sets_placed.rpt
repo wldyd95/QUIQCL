@@ -1,0 +1,136 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat Feb  1 17:58:53 2020
+| Host         : LAPTOP-HJ8BQ6UU running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7s50
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    58 |
+|    Minimum number of control sets                        |    58 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   120 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    58 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |    12 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |     8 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     5 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    25 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              87 |           46 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               4 |            2 |
+| Yes          | No                    | No                     |             917 |          318 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             272 |           88 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------+------------------------------------------------------------------------------------------+------------------------------------------------+------------------+----------------+
+|    Clock Signal   |                                       Enable Signal                                      |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++-------------------+------------------------------------------------------------------------------------------+------------------------------------------------+------------------+----------------+
+| ~rsclk0_OBUF_BUFG | DDS/WTR00/wr_rcsbar_i_1_n_0                                                              |                                                |                1 |              1 |
+| ~rsclk0_OBUF_BUFG | DDS/WTR01/wr_rcsbar_i_1__0_n_0                                                           |                                                |                1 |              1 |
+| ~rsclk0_OBUF_BUFG |                                                                                          |                                                |                1 |              2 |
+|  clk_IBUF_BUFG    |                                                                                          | fifo_rst_reg_n_0                               |                2 |              4 |
+|  clk_IBUF_BUFG    | STR_READER/RXUSB/Baud8Tick                                                               | STR_READER/RXUSB/bit_spacing_0                 |                2 |              4 |
+| ~rsclk0_OBUF_BUFG | DDS/WTR00/FSM_onehot_state[3]_i_1__0_n_0                                                 |                                                |                1 |              4 |
+|  clk_IBUF_BUFG    | DDS/MODE_reg[1][0]                                                                       |                                                |                1 |              4 |
+| ~rsclk0_OBUF_BUFG | DDS/WTR01/FSM_onehot_state[3]_i_1__1_n_0                                                 |                                                |                1 |              4 |
+|  clk_IBUF_BUFG    | STR_SENDER/MODE_reg[3]                                                                   | STR_SENDER/MODE_reg[0]_rep__0                  |                1 |              4 |
+|  clk_IBUF_BUFG    | STR_SENDER/TXUSB/FSM_sequential_state_reg[0]_2[0]                                        | STR_SENDER/TXUSB/FSM_sequential_state_reg[0]   |                2 |              4 |
+|  clk_IBUF_BUFG    | STR_SENDER/TXUSB/FSM_sequential_state_reg[0]_2[0]                                        | STR_SENDER/TXUSB/FSM_sequential_state_reg[0]_0 |                1 |              4 |
+|  clk_IBUF_BUFG    | STR_READER/RXUSB/E[0]                                                                    |                                                |                2 |              5 |
+|  clk_IBUF_BUFG    | STR_SENDER/SHIFT_COUNT[4]_i_1_n_0                                                        |                                                |                2 |              5 |
+|  clk_IBUF_BUFG    | RUN_state[4]_i_1_n_0                                                                     |                                                |                4 |              5 |
+|  clk_IBUF_BUFG    | STR_SENDER/TXUSB/E[0]                                                                    |                                                |                2 |              5 |
+|  clk_IBUF_BUFG    | DDS/DDS_Busy_reg_1                                                                       | DDS/ddsW_state_reg[1]                          |                3 |              6 |
+|  clk_IBUF_BUFG    | DDS/WTR00/E[0]                                                                           |                                                |                2 |              6 |
+|  clk_IBUF_BUFG    | DDS_Data[31]_i_2_n_0                                                                     | DDS_Data[31]_i_1_n_0                           |                2 |              6 |
+|  clk_IBUF_BUFG    | STR_READER/RXUSB/RxD_data06_out                                                          |                                                |                3 |              8 |
+|  clk_IBUF_BUFG    | DDS/MODE_reg[3]_1[0]                                                                     |                                                |                5 |              8 |
+|  clk_IBUF_BUFG    | DDS/Shift_Desired0                                                                       | DDS/DDS_Data_SHIFTED[62]_i_1_n_0               |                1 |              8 |
+|  clk_IBUF_BUFG    | DDS/Shift_Desired0                                                                       | DDS/DDS_Data_SHIFTED[63]_i_1_n_0               |                1 |              8 |
+|  clk_IBUF_BUFG    | DDS/Shift_Desired0                                                                       | DDS/DDS_Data_SHIFTED[7]_i_1_n_0                |                2 |              8 |
+|  clk_IBUF_BUFG    | STR_SENDER/ONE_BYTE_STR                                                                  |                                                |                1 |              8 |
+|  clk_IBUF_BUFG    | STR_SENDER/MODE_reg[3]                                                                   | STR_SENDER/MODE_reg[1]                         |                3 |              8 |
+|  clk_IBUF_BUFG    | STR_SENDER/TXUSB/TxD_dataReg0                                                            |                                                |                1 |              8 |
+|  clk_IBUF_BUFG    | STR_READER/RXUSB/FSM_onehot_state[10]_i_1_n_0                                            |                                                |                2 |             11 |
+|  clk_IBUF_BUFG    | STR_READER/E[0]                                                                          |                                                |                7 |             12 |
+|  clk_IBUF_BUFG    | adc_store_count_TARGET[11]_i_1_n_0                                                       |                                                |                2 |             12 |
+|  clk_IBUF_BUFG    | ADC_FIFO/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/cntr_en | fifo_rst_reg_n_0                               |                3 |             12 |
+|  clk_IBUF_BUFG    | STR_READER/RXUSB/FSM_onehot_state_reg[4]_0[0]                                            |                                                |                4 |             12 |
+|  clk_IBUF_BUFG    | STR_SENDER/TXUSB/FSM_onehot_state[12]_i_1_n_0                                            |                                                |                3 |             13 |
+|  clk_IBUF_BUFG    | STR_SENDER/MODE_reg[3]                                                                   |                                                |                5 |             15 |
+|  clk_IBUF_BUFG    | STR_SENDER/TXUSB/FSM_sequential_state_reg[0]_2[1]                                        |                                                |                3 |             16 |
+|  clk_IBUF_BUFG    | Target_ADC[15]_i_1_n_0                                                                   |                                                |                6 |             16 |
+|  clk_IBUF_BUFG    | DDS_PWR_1[15]_i_1_n_0                                                                    |                                                |                6 |             16 |
+|  clk_IBUF_BUFG    | DDS_Data[47]_i_1_n_0                                                                     |                                                |                3 |             16 |
+|  clk_IBUF_BUFG    | STR_SENDER/MODE_reg[3]_0                                                                 |                                                |                9 |             16 |
+|  clk_IBUF_BUFG    | ADC_Upper[15]_i_1_n_0                                                                    |                                                |                5 |             16 |
+|  clk_IBUF_BUFG    | ADC_Lower[15]_i_1_n_0                                                                    |                                                |                4 |             16 |
+|  clk_IBUF_BUFG    | STR_SENDER/TXUSB/TxD_busy                                                                |                                                |                5 |             17 |
+|  clk_IBUF_BUFG    | DDS/DDS_Busy_reg_1                                                                       |                                                |                7 |             19 |
+|  clk_IBUF_BUFG    | P_mul[19]_i_1_n_0                                                                        |                                                |                8 |             20 |
+|  clk_IBUF_BUFG    | I_mul[19]_i_1_n_0                                                                        |                                                |                8 |             20 |
+|  clk_IBUF_BUFG    | adc_sum_count[3]_i_1_n_0                                                                 |                                                |               11 |             24 |
+|  clk_IBUF_BUFG    | adc_sum_count_TARGET[23]_i_1_n_0                                                         |                                                |                5 |             24 |
+|  clk_IBUF_BUFG    | ADC_FIFO/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/p_7_out | fifo_rst_reg_n_0                               |                6 |             24 |
+|  clk_IBUF_BUFG    | ADC_FIFO/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0]    | fifo_rst_reg_n_0                               |                8 |             24 |
+|  clk_IBUF_BUFG    | adc_sum[39]_i_1_n_0                                                                      |                                                |               28 |             40 |
+|  clk_IBUF_BUFG    | offset_wrt_lockfreq[47]_i_1_n_0                                                          |                                                |               12 |             48 |
+|  clk_IBUF_BUFG    | DDS/E[0]                                                                                 |                                                |               35 |             48 |
+|  clk_IBUF_BUFG    | DDS/Shift_Desired0                                                                       |                                                |               16 |             48 |
+| ~rsclk0_OBUF_BUFG | DDS/WTR01/data                                                                           |                                                |               23 |             71 |
+| ~rsclk0_OBUF_BUFG | DDS/WTR00/data_0                                                                         |                                                |               22 |             71 |
+|  clk_IBUF_BUFG    |                                                                                          |                                                |               45 |             85 |
+|  clk_IBUF_BUFG    | STR_SENDER/TXUSB/FSM_sequential_state_reg[0]_2[0]                                        |                                                |               16 |            104 |
+|  clk_IBUF_BUFG    | Register_Name[103]_i_1_n_0                                                               |                                                |               36 |            104 |
+|  clk_IBUF_BUFG    | STR_READER/RXUSB/FSM_onehot_state_reg[0]_1                                               | STR_READER/RXUSB/FSM_onehot_state_reg[0]_0     |               53 |            152 |
++-------------------+------------------------------------------------------------------------------------------+------------------------------------------------+------------------+----------------+
+
+

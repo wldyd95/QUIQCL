@@ -1,0 +1,106 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Nov  7 14:57:41 2019
+| Host         : LAPTOP-HJ8BQ6UU running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7s50
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    28 |
+|    Minimum number of control sets                        |    28 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    94 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    28 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     6 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |    10 |
+| >= 14 to < 16      |     2 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              38 |           14 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               8 |            2 |
+| Yes          | No                    | No                     |             434 |           98 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             106 |           21 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------------------------------------+------------------------------------------+------------------+----------------+
+|  Clock Signal  |                     Enable Signal                    |             Set/Reset Signal             | Slice Load Count | Bel Load Count |
++----------------+------------------------------------------------------+------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                                                      | string_reader/RXStringReady_reg_2        |                1 |              4 |
+|  clk_IBUF_BUFG |                                                      | string_reader/RXStringReady_reg_1        |                1 |              4 |
+|  clk_IBUF_BUFG | string_reader/RXUSB/Baud8Tick                        | string_reader/RXUSB/bit_spacing_0        |                1 |              4 |
+|  clk_IBUF_BUFG | string_sender/TXUSB/E[0]                             |                                          |                2 |              5 |
+|  clk_IBUF_BUFG | string_sender/SHIFT_COUNT[4]_i_1_n_0                 |                                          |                2 |              5 |
+|  clk_IBUF_BUFG | string_reader/RXUSB/E[0]                             |                                          |                2 |              5 |
+|  clk_IBUF_BUFG | string_sender/TXUSB/TxD_dataReg0                     |                                          |                2 |              7 |
+|  clk_IBUF_BUFG | string_sender/ONE_BYTE_STR[6]_i_1_n_0                |                                          |                1 |              7 |
+|  clk_IBUF_BUFG | string_reader/RXUSB/RxD_data06_out                   |                                          |                1 |              8 |
+|  clk_IBUF_BUFG | string_reader/RXUSB/RxD_data_ready_reg_0[0]          |                                          |                1 |              8 |
+|  clk_IBUF_BUFG | string_reader/E[0]                                   |                                          |                2 |             10 |
+|  clk_IBUF_BUFG | string_reader/RXUSB/FSM_onehot_state[10]_i_1_n_0     |                                          |                3 |             11 |
+|  clk_IBUF_BUFG | output_bit[11]_i_1_n_0                               |                                          |                9 |             12 |
+|  clk_IBUF_BUFG | string_reader/FSM_onehot_state_reg[5][0]             |                                          |                4 |             12 |
+|  clk_IBUF_BUFG | string_reader/FSM_onehot_state_reg[5]_0[0]           |                                          |                3 |             12 |
+|  clk_IBUF_BUFG | string_reader/RXString_reg[96]_2[0]                  |                                          |                2 |             12 |
+|  clk_IBUF_BUFG | string_reader/RXString_reg[97]_1[0]                  |                                          |                3 |             12 |
+|  clk_IBUF_BUFG | string_reader/RXString_reg[97]_0[0]                  |                                          |                4 |             12 |
+|  clk_IBUF_BUFG | string_reader/RXString_reg[1]_1[0]                   |                                          |                6 |             12 |
+|  clk_IBUF_BUFG | string_reader/RXString_reg[96]_1[0]                  |                                          |                3 |             12 |
+|  clk_IBUF_BUFG | string_reader/RXString_reg[96]_0[0]                  |                                          |                5 |             12 |
+|  clk_IBUF_BUFG | string_sender/TXUSB/FSM_onehot_state[12]_i_1_n_0     |                                          |                3 |             13 |
+|  clk_IBUF_BUFG | string_sender/TXUSB/FSM_sequential_state_reg[0]_0[1] |                                          |                2 |             14 |
+|  clk_IBUF_BUFG | string_reader/RXUSB/RxD_data_ready_reg_1             |                                          |                2 |             14 |
+|  clk_IBUF_BUFG | string_sender/TXUSB/TxD_busy                         |                                          |                5 |             17 |
+|  clk_IBUF_BUFG |                                                      |                                          |               14 |             38 |
+|  clk_IBUF_BUFG | string_reader/RXUSB/RxD_data_ready_reg_1             | string_reader/RXUSB/RxD_data_ready_reg_2 |               20 |            102 |
+|  clk_IBUF_BUFG | string_sender/TXUSB/FSM_sequential_state_reg[0]_0[0] |                                          |               31 |            209 |
++----------------+------------------------------------------------------+------------------------------------------+------------------+----------------+
+
+
