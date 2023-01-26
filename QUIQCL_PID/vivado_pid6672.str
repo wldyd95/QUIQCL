@@ -1,0 +1,100 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 6672
+License: Customer
+
+Current time: 	Tue Apr 21 10:10:32 KST 2020
+Time zone: 	Korea Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 2560x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 2 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	QC109_4
+User home directory: C:/Users/QC109_4
+User working directory: Q:/Users/yjpark/Arty S7/FPGA_v1.22
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/QC109_4/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/QC109_4/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/QC109_4/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	Q:/Users/yjpark/Arty S7/FPGA_v1.22/vivado.log
+Vivado journal file location: 	Q:/Users/yjpark/Arty S7/FPGA_v1.22/vivado.jou
+Engine tmp dir: 	Q:/Users/yjpark/Arty S7/FPGA_v1.22/.Xil/Vivado-6672-DESKTOP-MCBJ7EB
+
+GUI allocated memory:	189 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 533 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 52 MB (+51998kb) [00:00:04]
+// [Engine Memory]: 512 MB (+385239kb) [00:00:04]
+// bs (cl):  Open Project : addNotify
+// Opening Vivado Project: Q:\Users\yjpark\Arty S7\FPGA_v1.22\v1_00.xpr. Version: Vivado v2017.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {Q:/Users/yjpark/Arty S7/FPGA_v1.22/v1_00.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 546 MB. GUI used memory: 33 MB. Current time: 4/21/20 10:10:34 AM KST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 58 MB (+4050kb) [00:00:11]
+// [Engine Memory]: 584 MB (+49282kb) [00:00:11]
+// [Engine Memory]: 623 MB (+9447kb) [00:00:13]
+// Tcl Message: open_project {Q:/Users/yjpark/Arty S7/FPGA_v1.22/v1_00.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'. 
+// Project name: v1_00; location: Q:/Users/yjpark/Arty S7/FPGA_v1.22; part: xc7s50csga324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 840.234 ; gain = 78.148 
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 64 MB (+2775kb) [00:00:16]
+// TclEventType: DG_GRAPH_GENERATED
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open Project..."); // ac (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("Q:/Users/yjpark/Arty S7/lag_compensator/v1_00.xpr");
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 42 MB. Current time: 4/21/20 10:10:53 AM KST
+// bs (cl):  Open Project : addNotify
+// Opening Vivado Project: Q:/Users/yjpark/Arty S7/lag_compensator/v1_00.xpr. Version: Vivado v2017.3 
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_project 
+// TclEventType: MSGMGR_MOVEMSG

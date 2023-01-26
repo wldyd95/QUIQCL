@@ -1,0 +1,7 @@
+0.6
+2017.3
+Oct  4 2017
+20:11:37
+Q:/Users/Hyunseok/FPGA implementation/FPGA_v1.2/v1_00.sim/sim_1/synth/timing/xsim/testbench_2_time_synth.v,1574900082,verilog,,,,ADC8698;DAC8734;DAC8734_0;DAC8734_1;DAC8734_2;DAC8734_3;DAC8734_4;DAC8734_5;DAC8734_6;PID_Control;async_receiver;async_transmitter;data_receiver;data_sender;dbg_hub_CV;fifo_generator_0;fifo_generator_0_builtin_extdepth_v6;fifo_generator_0_builtin_extdepth_v6_0;fifo_generator_0_builtin_prim_v6;fifo_generator_0_builtin_prim_v6_1;fifo_generator_0_builtin_top_v6;fifo_generator_0_fifo_generator_top;fifo_generator_0_fifo_generator_v13_2_0;fifo_generator_0_fifo_generator_v13_2_0_builtin;fifo_generator_0_fifo_generator_v13_2_0_synth;fifo_generator_0_reset_builtin;glbl;led_intensity_adjust;main_without_capture_waveform_data;u_ila_0_CV,,xil_defaultlib,C:/Xilinx/Vivado/2017.3/data/xilinx_vip/include,,,,,
+Q:/Users/Hyunseok/FPGA implementation/FPGA_v1.2/v1_00.srcs/sim_1/new/testbench_2.sv,1574822435,systemVerilog,,,,testbench_2,,xil_defaultlib,C:/Xilinx/Vivado/2017.3/data/xilinx_vip/include,,,,,
+Q:/Users/Hyunseok/FPGA implementation/FPGA_v1.2/v1_00.srcs/sources_1/new/testbench_v1_00.sv,1569309784,systemVerilog,Q:/Users/Hyunseok/FPGA implementation/FPGA_v1.2/v1_00.srcs/sim_1/new/testbench_2.sv,Q:/Users/Hyunseok/FPGA implementation/FPGA_v1.2/v1_00.srcs/sim_1/new/testbench_2.sv,,$unit_1;testbench,,xil_defaultlib,C:/Xilinx/Vivado/2017.3/data/xilinx_vip/include,,,,,

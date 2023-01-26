@@ -1,0 +1,183 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 688
+License: Customer
+
+Current time: 	Thu May 21 12:12:00 KST 2020
+Time zone: 	Korea Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 342 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	À¯½Â¿ì
+User home directory: C:/Users/À¯½Â¿ì
+User working directory: D:/verilog/adc_dac_controller/lag_comp/verilog
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/À¯½Â¿ì/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/À¯½Â¿ì/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/À¯½Â¿ì/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/verilog/adc_dac_controller/lag_comp/verilog/vivado.log
+Vivado journal file location: 	D:/verilog/adc_dac_controller/lag_comp/verilog/vivado.jou
+Engine tmp dir: 	D:/verilog/adc_dac_controller/lag_comp/verilog/.Xil/Vivado-688-LAPTOP-210U3NQR
+
+GUI allocated memory:	186 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 526 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\verilog\adc_dac_controller\lag_comp\verilog\v1_00.xpr. Version: Vivado v2017.3 
+// bs (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 56 MB (+56568kb) [00:00:05]
+// [Engine Memory]: 493 MB (+364980kb) [00:00:05]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: open_project D:/verilog/adc_dac_controller/lag_comp/verilog/v1_00.xpr 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 77 MB (+18825kb) [00:00:08]
+// [Engine Memory]: 576 MB (+61682kb) [00:00:08]
+// [GUI Memory]: 86 MB (+5239kb) [00:00:08]
+// [GUI Memory]: 91 MB (+760kb) [00:00:10]
+// Tcl Message: open_project D:/verilog/adc_dac_controller/lag_comp/verilog/v1_00.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 51 MB. Current time: 5/21/20 12:12:03 PM KST
+// [Engine Memory]: 611 MB (+6736kb) [00:00:11]
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 772.391 ; gain = 58.613 
+// Project name: v1_00; location: D:/verilog/adc_dac_controller/lag_comp/verilog; part: xc7s50csga324-1
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 41 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv), receiver : data_receiver (data_receiver_v1_00.v)]", 2, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 623 MB. GUI used memory: 52 MB. Current time: 5/21/20 12:12:47 PM KST
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load", true); // l (aP, cl)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "load"); // l (aP, cl)
+// Elapsed time: 52 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 95, 295); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 117, 307); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// [GUI Memory]: 96 MB (+591kb) [00:02:53]
+// Elapsed time: 78 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 178, 345); // cd (w, cl)
+// Elapsed time: 39 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 328, 411); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 187, 327); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 187, 327); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// [GUI Memory]: 102 MB (+1126kb) [00:04:50]
+// [GUI Memory]: 108 MB (+935kb) [00:05:28]
+// Elapsed time: 144 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// Elapsed time: 84 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 156, 393); // cd (w, cl)
+// Elapsed time: 135 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 165, 264); // cd (w, cl)
+// Elapsed time: 61 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 123, 271); // cd (w, cl)
+// Elapsed time: 22 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 184, 179); // cd (w, cl)
+// Elapsed time: 47 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 278, 268); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 660 MB (+18823kb) [00:13:19]
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 676 MB. GUI used memory: 53 MB. Current time: 5/21/20 12:25:12 PM KST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 3); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (x)
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // x (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectComboBox(PAResourceItoN.LaunchPanel_LAUNCH_DIRECTORY, "Choose Location...", 1); // e (a, f)
+setFolderChooser("D:/verilog/adc_dac_controller/lag_comp/verilog");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'ct' command handler elapsed time: 12 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bs (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu May 21 12:25:27 2020] Launched synth_1... Run output will be captured here: D:/verilog/adc_dac_controller/lag_comp/verilog/synth_1/runme.log [Thu May 21 12:25:27 2020] Launched impl_1... Run output will be captured here: D:/verilog/adc_dac_controller/lag_comp/verilog/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// [GUI Memory]: 116 MB (+3117kb) [00:13:40]
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 352 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.

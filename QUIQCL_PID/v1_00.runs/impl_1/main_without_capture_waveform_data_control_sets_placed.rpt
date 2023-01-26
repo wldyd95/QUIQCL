@@ -1,0 +1,42 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
+| Date         : Wed Aug 19 13:06:23 2020
+| Host         : QC109-3 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -file main_without_capture_waveform_data_control_sets_placed.rpt
+| Design       : main_without_capture_waveform_data
+| Device       : xc7s50
+------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+
+1. Summary
+----------
+
++-------------------------------+-------+
+|             Status            | Count |
++-------------------------------+-------+
+| Number of unique control sets |   306 |
++-------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            7817 |         2337 |
+| No           | No                    | Yes                    |             136 |           43 |
+| No           | Yes                   | No                     |             590 |          216 |
+| Yes          | No                    | No                     |            4166 |         1096 |
+| Yes          | No                    | Yes                    |              82 |           15 |
+| Yes          | Yes                   | No                     |             515 |          147 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+

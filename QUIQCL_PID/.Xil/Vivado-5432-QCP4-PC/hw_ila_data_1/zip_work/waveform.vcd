@@ -1,0 +1,18 @@
+$date
+        2020-May-21 16:04:44
+$end
+$version
+        Vivado v2017.3 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " ck_io_26_OBUF $end
+$var reg 1 # ck_io_27_OBUF $end
+$var reg 1 $ ck_io_29_OBUF $end
+$var reg 1 % _TRIGGER $end
+$var reg 1 & _WINDOW $end
+$var reg 1 ' _GAP $end
+$upscope $end
+$enddefinitions $end

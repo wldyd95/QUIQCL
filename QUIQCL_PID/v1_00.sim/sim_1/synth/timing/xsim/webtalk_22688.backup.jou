@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Thu Nov 28 09:18:02 2019
+# Process ID: 22688
+# Current directory: Q:/Users/Hyunseok/FPGA implementation/FPGA_v1.2/v1_00.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source Q:/Users/Hyunseok/FPGA implementation/FPGA_v1.2/v1_00.sim/sim_1/synth/timing/xsim/xsim.dir/testbench_2_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: Q:/Users/Hyunseok/FPGA implementation/FPGA_v1.2/v1_00.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: Q:/Users/Hyunseok/FPGA implementation/FPGA_v1.2/v1_00.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source Q:/Users/Hyunseok/FPGA -notrace

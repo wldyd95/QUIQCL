@@ -1,0 +1,78 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 4760
+License: Customer
+
+Current time: 	Mon Aug 05 10:41:08 KST 2019
+Time zone: 	Korea Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 9 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	QC109_4
+User home directory: C:/Users/QC109_4
+User working directory: Q:/Users/swYoo/Arty S7/DAC8734/test2
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/QC109_4/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/QC109_4/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/QC109_4/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	Q:/Users/swYoo/Arty S7/DAC8734/test2/vivado.log
+Vivado journal file location: 	Q:/Users/swYoo/Arty S7/DAC8734/test2/vivado.jou
+Engine tmp dir: 	Q:/Users/swYoo/Arty S7/DAC8734/test2/.Xil/Vivado-4760-DESKTOP-MCBJ7EB
+
+GUI allocated memory:	134 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 534 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 46 MB (+46125kb) [00:00:05]
+// [Engine Memory]: 489 MB (+360790kb) [00:00:05]
+// bs (cl):  Open Project : addNotify
+// Opening Vivado Project: Q:\Users\swYoo\Arty S7\DAC8734\test2\v1_00.xpr. Version: Vivado v2017.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {Q:/Users/swYoo/Arty S7/DAC8734/test2/v1_00.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// [GUI Memory]: 58 MB (+9952kb) [00:00:08]
+// [Engine Memory]: 534 MB (+22287kb) [00:00:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 539 MB. GUI used memory: 36 MB. Current time: 8/5/19 10:41:10 AM KST
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 35 MB. Current time: 8/5/19 10:43:20 AM KST
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bs)
+// TclEventType: FILE_SET_CHANGE

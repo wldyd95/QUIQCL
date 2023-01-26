@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Aug  5 17:06:26 2020
+# Process ID: 20636
+# Current directory: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_revised_t/verilog
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20184 Q:\Users\swYoo\Arty S7\lag_comp\lag_comp_v1.3_revised_t\verilog\v1_00.xpr
+# Log file: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_revised_t/verilog/vivado.log
+# Journal file: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_revised_t/verilog\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_revised_t/verilog/v1_00.xpr}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+wait_on_run impl_1

@@ -1,0 +1,272 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 16596
+License: Customer
+
+Current time: 	Mon Jul 27 20:13:16 KST 2020
+Time zone: 	Korea Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 2560x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 59 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	QC109_3
+User home directory: C:/Users/QC109_3
+User working directory: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.3
+RDI_DATADIR: C:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/QC109_3/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/QC109_3/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/QC109_3/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/vivado.log
+Vivado journal file location: 	Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/vivado.jou
+Engine tmp dir: 	Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/.Xil/Vivado-16596-QC109-3
+
+GUI allocated memory:	178 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 548 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: Q:\Users\swYoo\Arty S7\lag_comp\lag_comp_v1.3_adding_dac_only\verilog\v1_00.xpr. Version: Vivado v2017.3 
+// bs (cl):  Open Project : addNotify
+// [GUI Memory]: 78 MB (+78806kb) [00:00:05]
+// [Engine Memory]: 521 MB (+395020kb) [00:00:05]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: open_project {Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.xpr} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 594 MB (+48740kb) [00:00:10]
+// [GUI Memory]: 86 MB (+5203kb) [00:00:11]
+// [GUI Memory]: 92 MB (+1758kb) [00:00:12]
+// Tcl Message: open_project {Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_testing/verilog' since last save. 
+// HMemoryUtils.trashcanNow. Engine heap size: 623 MB. GUI used memory: 50 MB. Current time: 7/27/20 8:13:22 PM KST
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'. 
+// Project name: v1_00; location: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog; part: xc7s50csga324-1
+// [Engine Memory]: 633 MB (+10357kb) [00:00:14]
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 811.348 ; gain = 83.383 
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_without_capture_waveform_data (main_without_capture_waveform_data_v1_00.sv), receiver : data_receiver (data_receiver_v1_00.v)]", 2, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// Elapsed time: 35 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja3", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja3"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja3"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja3"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja3"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja3"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja3"); // l (aP, cl)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja_3", true); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja_3"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja_3"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja_3"); // l (aP, cl)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja_3"); // l (aP, cl)
+// Elapsed time: 15 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ja_2"); // l (aP, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 50 MB. Current time: 7/27/20 8:14:29 PM KST
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 673 MB (+8490kb) [00:01:21]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Jul 27 20:14:30 2020] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/synth_1/runme.log [Mon Jul 27 20:14:30 2020] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 692 MB. GUI used memory: 83 MB. Current time: 7/27/20 8:15:38 PM KST
+// Elapsed time: 153 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (N, cl)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 67 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 186, 376); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 177, 387); // cd (w, cl)
+// [GUI Memory]: 97 MB (+188kb) [00:05:04]
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 41 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// [GUI Memory]: 104 MB (+2325kb) [00:05:54]
+// Elapsed time: 30 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// Elapsed time: 39 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 25 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// Elapsed time: 148 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "investigate"); // l (aP, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 249, 189); // cd (w, cl)
+// [GUI Memory]: 112 MB (+2581kb) [00:10:39]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// Elapsed time: 74 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (N, cl)
+// aN (cl): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aN)
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aN (cl)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// Elapsed time: 298 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 354, 300); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 207, 190); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 194, 216); // cd (w, cl)
+// Elapsed time: 70 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 274, 64); // cd (w, cl)
+// [GUI Memory]: 119 MB (+1699kb) [00:18:05]
+// Elapsed time: 14 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 386, 287); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 45 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 593, 282); // cd (w, cl)
+// Elapsed time: 79 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'c'); // cd (w, cl)
+typeControlKey((HResource) null, "main_without_capture_waveform_data_v1_00.sv", 'v'); // cd (w, cl)
+// Elapsed time: 44 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "user_sampling"); // l (aP, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 876, 281); // cd (w, cl)
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 894, 154); // cd (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 396, 223); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 55 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Jul 27 20:35:54 2020] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/synth_1/runme.log [Mon Jul 27 20:35:54 2020] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// TclEventType: RUN_FAILED
+// ah (cl): Synthesis Failed: addNotify
+// Elapsed time: 29 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-660] unable to resolve 'CMD_COSNST_SHOOT' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:790]. ]", 2, false); // ah (O, cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-660] unable to resolve 'CMD_COSNST_SHOOT' [Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.srcs/sources_1/new/main_without_capture_waveform_data_v1_00.sv:790]. ]", 2, false, false, false, false, false, true); // ah (O, cl) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("main_without_capture_waveform_data_v1_00.sv", 399, 234); // cd (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cl)
+// TclEventType: DG_GRAPH_GENERATED
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bs (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// bs (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 3 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Jul 27 20:37:00 2020] Launched synth_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/synth_1/runme.log [Mon Jul 27 20:37:00 2020] Launched impl_1... Run output will be captured here: Q:/Users/swYoo/Arty S7/lag_comp/lag_comp_v1.3_adding_dac_only/verilog/v1_00.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs (cl)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 701 MB. GUI used memory: 55 MB. Current time: 7/27/20 8:45:39 PM KST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 701 MB. GUI used memory: 48 MB. Current time: 7/27/20 9:15:39 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 701 MB. GUI used memory: 48 MB. Current time: 7/27/20 9:45:40 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 701 MB. GUI used memory: 48 MB. Current time: 7/27/20 10:15:40 PM KST
